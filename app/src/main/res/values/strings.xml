@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">PsychologyTests</string>
+    <string name="title_activity_level1">level1</string>
+    <string name="level1qw1"> Бывает, что я смеюсь над неприличным анекдотом</string>
+    <string name="level1qw2"> Если ко мне обращаются вежливо, то я тоже всегда отвечаю вежливо</string>
+    <string name="level1qw3"> У меня бывают денежные затруднения</string>
+    <string name="level1qw4"> Мне всегда приятно, когда человек, который мне не нравится, добивается заслуженного успеха</string>
+    <string name="level1qw5"> Бывало, откладывал то, что требовалось сделать немедленно</string>
+    <string name="level1qw6"> В компании я веду себя не так, как дома</string>
+    <string name="level1qw7"> Я полностью свободен от всяких предрассудков</string>
+    <string name="level1qw8"> Я не всегда говорю правду</string>
+    <string name="level1qw9"> Когда я с кем-нибудь играю, мне всегда хочется победить</string>
+    <string name="level1qw10"> Иногда я сержусь</string>
+    <string name="level1qw11"> В свое оправдание я иногда кое-что выдумывал</string>
+    <string name="level1qw12"> Бывает, что я выхожу из себя</string>
+    <string name="level1qw13"> В детстве я сразу и без пререканий делал всё, что от меня требовалось</string>
+    <string name="level1qw14"> Иногда я раздражен чем-нибудь</string>
+    <string name="level1qw15"> Бывает, что я смехом реагирую на неприличную шутку</string>
+    <string name="level1qw16"> Бывало, я опаздывал к назначенному времени</string>
+    <string name="level1qw17"> Я люблю иногда посплетничать</string>
+    <string name="level1qw18"> Среди тех, кого я знаю, есть такие лица, которые мне очень не нравятся</string>
+    <string name="level1qw19"> Не помню, чтобы меня особенно опечалили неудачи человека, которого я не могу терпеть</string>
+    <string name="level1qw20"> Мне случалось опаздывать</string>
+    <string name="level1qw21"> Мне свойственно иногда прихвастнуть</string>
+    <string name="level1qw22"> Иногда нет никакого желания чем-либо заняться</string>
+    <string name="level1qw23"> У меня бывают иногда мысли, о которых стыдно рассказывать другим</string>
+    <string name="level1qw24"> Иногда я оказывался причиной плохого настроения кого-нибудь из окружающих</string>
+    <string name="level1qw25"> Бывало, что я говорил неправду</string>
+    <string name="level1qw26"> Все мои привычки положительны</string>
+    <string name="level1qw27"> Если я что-то обещал, то всегда сдерживаю слово несмотря ни на что</string>
+    <string name="level1qw28"> Иногда могу похвастаться</string>
+    <string name="level1qw29"> Подростком я проявлял интерес к запретным темам</string>
+    <string name="level1qw30"> Я откладываю иногда на завтра то, что необходимо сделать сегодня</string>
+    <string name="level1qw31"> У меня бывают мысли, которых следовало бы стыдиться</string>
+    <string name="level1qw32"> Я люблю не всех своих знакомых</string>
+    <string name="level1qw33"> Я люблю не всех своих знакомых</string>
+    <string name="level1qw34"> Я могу про кого-нибудь сказать плохо</string>
+    <string name="hello_world">Hello Square World!</string>
+    <string name="level1_oneAnswer">0 - 5 баллов. Очень низкий показатель по шкале "Честность".
+        Свидетельствует о ярко выраженной склонности ко лжи, приукрашиванию себя.
+        Также может свидетельствовать о низких показателях социального интеллекта. Если данный
+        опросник применялся в составе батареи методик, то результаты по личностным опросникам следует признать недостоверными.</string>
+    <string name="level1_twoAnswer">6 - 13 баллов. Низкий показатель по шкале "Честность".
+        Свидетельствует о значительной склонности ко лжи. Любит приукрашивать себя, своё поведение.
+        Если опросник применялся в составе батареи методик, то результаты по личностным опросникам
+        не обязательнос следует признавать недостоверными. Однако следует отнестить к их результатам вполне критично.</string>
+    <string name="level1_threeAnswer">14 - 29 баллов. Нормальный результат. Склонность ко лжи не выявлена.
+        Может быть, изредка склонен приукрашивать себя, своё поведение, но в пределах нормы.</string>
+    <string name="level1_fourAnswer">30 - 34 баллов. Высокий результат по шкале "Честность".
+        Такой высокий результат может быть связан не только с высокой личностной честностью,но и следствием других причин: преднамеренного
+        искажения ответов, очень неверной самооценки. Следует осторожно отнестись к данному результату.</string>
+    <string name="title_activity_level_one_spisok">level_one_spisok</string>
+
+
+    <string name="observationqw1"> Вы заходите в какую-то организацию</string>
+    <string name="observationqw2"> Встречаясь с человеком, вы</string>
+    <string name="observationqw3"> Что вам запоминается из увиденного пейзажа</string>
+    <string name="observationqw4"> Когда вы утром просыпаетесь, то </string>
+    <string name="observationqw5"> Когда вы садитесь в общественный транспорт, то</string>
+    <string name="observationqw6"> На улице вы</string>
+    <string name="observationqw7"> Когда вы смотрите на витрину, то</string>
+    <string name="observationqw8"> Если дома вам нужно что-то найти, то вы</string>
+    <string name="observationqw9">  Рассматривая старый групповой снимок ваших близких, друзей, вы</string>
+    <string name="observationqw10"> Представьте, что вам предложили сыграть в азартную игру, которую вы не знаете. Вы:</string>
+    <string name="observationqw11">  Вы кого-то ждете в парке и:</string>
+    <string name="observationqw12"> В звездную ночь вы:</string>
+    <string name="observationqw13"> Читая книгу, вы:</string>
+    <string name="observationqw14"> О своих соседях вы помните:</string>
+    <string name="observationqw15"> Оказавшись перед сервированным столом:</string>
+
+
+
+    <string name="observationAnwer1_10"> обращаете внимание на точное расположение предметов</string>
+    <string name="observationAnwer2_10"> незаметно оглядываете его с ног до головы</string>
+    <string name="observationAnwer3_10"> цвета</string>
+    <string name="observationAnwer4_10"> сразу же вспоминаете, что вам предстоит делать</string>
+    <string name="observationAnwer5_10"> обмениваетесь словом-другим с теми, кто к вам ближе всего</string>
+    <string name="observationAnwer6_10">  наблюдаете за прохожими </string>
+    <string name="observationAnwer7_10">  несколько раз внимательно рассматриваете каждый предмет </string>
+    <string name="observationAnwer8_10">  сосредоточиваетесь на том месте, где, как вы предполагаете, могли оставить этот предмет </string>
+    <string name="observationAnwer9_10">  вы пытаетесь узнать тех, кто снят </string>
+    <string name="observationAnwer10_10">  пытаетесь научиться в нее играть и выигрывать </string>
+    <string name="observationAnwer11_10">  внимательно наблюдаете за теми, кто рядом с вами </string>
+    <string name="observationAnwer12_10">  пытаетесь разглядеть созвездия </string>
+    <string name="observationAnwer13_10">  помечаете карандашом то место, до которого дошли </string>
+    <string name="observationAnwer14_10">  их имя и отчество </string>
+    <string name="observationAnwer15_10">  проверяете, все ли на месте </string>
+
+
+    <string name="observationAnwer1_5"> разглядываете, что висит на стенах</string>
+    <string name="observationAnwer2_5"> смотрите ему только в лицо</string>
+    <string name="observationAnwer3_5"> небо</string>
+    <string name="observationAnwer4_5">  обдумываете, что произошло вчера</string>
+    <string name="observationAnwer5_5"> разглядываете тех, кто стоит рядом</string>
+    <string name="observationAnwer6_5">  наблюдаете за транспортом </string>
+    <string name="observationAnwer7_5">  смотрите и на то, что вам в данный момент не нужно </string>
+    <string name="observationAnwer8_5">  ищете везде </string>
+    <string name="observationAnwer9_5">  вы пытаетесь узнать тех, кто снят </string>
+    <string name="observationAnwer10_5">  отказываетесь от этой затеи через какое-то время </string>
+    <string name="observationAnwer11_5">  читаете газету </string>
+    <string name="observationAnwer12_5">  просто смотрите на небо </string>
+    <string name="observationAnwer13_5">  оставляете закладку </string>
+    <string name="observationAnwer14_5">  ни то, ни другое </string>
+    <string name="observationAnwer15_5">  смотрите, все ли стулья стоят как нужно </string>
+
+    <string name="observationAnwer1_3"> обращаете внимание на расположение столов и стульев </string>
+    <string name="observationAnwer2_3"> обращаете внимание лишь на отдельные части лица (глаза, нос...)</string>
+    <string name="observationAnwer3_3"> чувство радости или грусти, охватившее вас тогда</string>
+    <string name="observationAnwer4_3">  вспоминаете, что вам снилось</string>
+    <string name="observationAnwer5_3"> проходите вперед, ни на кого не глядя</string>
+    <string name="observationAnwer6_3">  смотрите на фасад домов </string>
+    <string name="observationAnwer7_3">  интересуетесь лишь тем, что может вам пригодиться </string>
+    <string name="observationAnwer8_3">  просите других помочь вам </string>
+    <string name="observationAnwer9_3">  вам становится смешно </string>
+    <string name="observationAnwer10_3">  вообще не играете </string>
+    <string name="observationAnwer11_3">   о чем-то мечтаете (думаете) </string>
+    <string name="observationAnwer12_3">  вообще не смотрите </string>
+    <string name="observationAnwer13_3">  доверяете своей памяти </string>
+    <string name="observationAnwer14_3">  их внешность </string>
+    <string name="observationAnwer15_3">  восхищаетесь его изысканностью </string>
+
+</resources>

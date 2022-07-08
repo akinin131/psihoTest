@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGroung"
+
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".honesty_tests"
+    tools:deviceIds="wear">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/observationqw1"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/text"
+            android:text="@string/observationAnwer1_10"
+
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="29dp"
+            android:textSize="18sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/text"
+            android:text="@string/observationAnwer1_5" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="29dp"
+            android:textSize="18sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/text"
+            android:text="@string/observationAnwer1_3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       android:layout_margin="50dp"
+
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:textColor="@color/text"
+            android:background="@drawable/stule_btn_black95_and_true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:text="Вернуться к списку тестов" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backGroung">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/testOnCharacter"
+                android:layout_width="400dp"
+                android:layout_height="272dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/lichnost" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-39dp"
+                android:background="#ABD8CDCD"
+                android:gravity="center"
+                android:text="Тесты на характер"
+                android:textColor="@color/text"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/testOnSposobnosti"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/sostoinie"/>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-49dp"
+                android:background="#ABD8CDCD"
+                android:gravity="center"
+                android:text="Тесты на способности"
+                android:textColor="@color/text"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/sostostoznie" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-39dp"
+                android:background="#ABD8CDCD"
+                android:gravity="center"
+                android:text="Семейные тесты"
+                android:textColor="@color/text"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/seks"
+                android:layout_marginBottom="70dp">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-85dp"
+                android:background="#ABD8CDCD"
+                android:gravity="center"
+                android:text="Тесты на секс"
+                android:textColor="@color/text"
+                android:textSize="28sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
