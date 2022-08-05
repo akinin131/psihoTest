@@ -12,39 +12,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PsychologyTests">
-
+        android:theme="@style/Theme.PsychologyTests.NoActionBar">
+        <activity android:name=".activityTest.MainActivityHaracter"></activity>
+        <activity android:name=".activityTest.MainActivityIntelect" />
+        <activity android:name=".activityTest.MainActivitySposobnosti" />
+        <activity android:name=".activityTest.MainActivitySex" />
         <activity
-            android:name=".level_one_spisok"
-            android:label="@string/title_activity_level_one_spisok">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".Answer" />
-        <activity
-            android:name=".honesty_tests"
+            android:name=".tests.honesty_tests"
             android:label="@string/title_activity_level1">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Observation_tests">
+        <activity android:name=".tests.Observation_tests">
             <intent-filter>
-
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".level_two_spisok">
+        <activity android:name=".tests.Kindness">
             <intent-filter>
-
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".activityTest.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -52,5 +42,5 @@
             </intent-filter>
         </activity>
     </application>
-</manifest>
 
+</manifest>

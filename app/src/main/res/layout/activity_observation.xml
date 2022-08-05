@@ -7,7 +7,7 @@
     android:background="@color/backGroung"
 
     android:padding="@dimen/box_inset_layout_padding"
-    tools:context=".honesty_tests"
+    tools:context=".tests.honesty_tests"
     tools:deviceIds="wear">
 
 

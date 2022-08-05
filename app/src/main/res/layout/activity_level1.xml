@@ -7,7 +7,7 @@
     android:background="@color/backGroung"
 
     android:padding="@dimen/box_inset_layout_padding"
-    tools:context=".honesty_tests"
+    tools:context=".tests.honesty_tests"
     tools:deviceIds="wear">
 
 
@@ -42,7 +42,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="10dp"
-
             android:background="@drawable/stule_btn_black95_and_true"
             android:text="Да"
             android:layout_weight="1"

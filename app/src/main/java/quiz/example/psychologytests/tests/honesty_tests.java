@@ -1,12 +1,20 @@
-package quiz.example.psychologytests;
+package quiz.example.psychologytests.tests;
 
+import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import quiz.example.psychologytests.R;
+import quiz.example.psychologytests.activityTest.MainActivity;
+import quiz.example.psychologytests.qw.level1Qw;
 
 public class honesty_tests extends AppCompatActivity {
     Button buttonYes;
@@ -15,7 +23,7 @@ public class honesty_tests extends AppCompatActivity {
     TextView textViewQw;
     int count = 0;
     int index = 0;
-
+    Dialog dialog;
 
 
 private  level1Qw[] level1Qw1 = new level1Qw[]{
@@ -68,6 +76,21 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
         textViewQw.setText(level1Qw1[index].getNumberQw());
         buttonBack.setVisibility(View.GONE);
         buttonBack.setClickable(false);
+        dialog = new Dialog(this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.previewdialog);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT)); // прозрачный фон диалогового окна
+        dialog.setCancelable(false);
+        Button btncontinue1 = dialog.findViewById(R.id.buttondiolog);
+        dialog.show();
+
+        btncontinue1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+
+            }
+        });
 
         buttonYes.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -86,14 +109,13 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
         buttonBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              Intent intent = new Intent(honesty_tests.this,MainActivity.class);
+              Intent intent = new Intent(honesty_tests.this, MainActivity.class);
               startActivity(intent);
               finish();
             }
         });
 
     }
-
 
     private void AnswerClock(boolean answer) {
 
@@ -117,8 +139,6 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
                 buttonNo.setClickable(false);
                 buttonBack.setVisibility(View.VISIBLE);
                 buttonBack.setClickable(true);
-
-
 
             }
             else if (count>13 &&count <=29){

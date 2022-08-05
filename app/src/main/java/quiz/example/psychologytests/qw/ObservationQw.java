@@ -1,9 +1,11 @@
-package quiz.example.psychologytests;
+package quiz.example.psychologytests.qw;
+
+import quiz.example.psychologytests.R;
 
 public class ObservationQw {
     private int Answer;
     private int numberQw;
-     int oneText_10[] = new int[]{
+     public int[] oneText_10 = new int[]{
              R.string.observationAnwer1_10,
              R.string.observationAnwer2_10,
              R.string.observationAnwer3_10,
@@ -21,7 +23,7 @@ public class ObservationQw {
              R.string.observationAnwer15_10
 
     };
-    int oneText_5[] = new int[]{
+    public int[] oneText_5 = new int[]{
             R.string.observationAnwer1_5,
             R.string.observationAnwer2_5,
             R.string.observationAnwer3_5,
@@ -40,7 +42,7 @@ public class ObservationQw {
 
     };
 
-    int oneText_3[] = new int[]{
+    public int[] oneText_3 = new int[]{
             R.string.observationAnwer1_3,
             R.string.observationAnwer2_3,
             R.string.observationAnwer3_3,
@@ -58,7 +60,7 @@ public class ObservationQw {
             R.string.observationAnwer15_3
 
     };
-    int observationQw[] = new int[]{
+    public int[] observationQw = new int[]{
             R.string.observationqw1,
             R.string.observationqw2,
             R.string.observationqw3,

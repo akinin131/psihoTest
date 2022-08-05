@@ -1,6 +1,6 @@
-package quiz.example.psychologytests;
+package quiz.example.psychologytests.qw;
 
-public class level1Qw {
+public class level1Qw{
     private boolean Answer;
     private int numberQw;
 
