@@ -82,7 +82,7 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT)); // прозрачный фон диалогового окна
         dialog.setCancelable(false);
         Button btncontinue1 = dialog.findViewById(R.id.buttondiolog);
-        dialog.show();
+        //dialog.show();
 
         btncontinue1.setOnClickListener(new View.OnClickListener() {
             @Override

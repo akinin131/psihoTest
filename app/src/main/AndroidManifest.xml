@@ -13,10 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PsychologyTests.NoActionBar">
-        <activity android:name=".activityTest.MainActivityHaracter"></activity>
+        <activity android:name=".tests.EntrepreneurTest"></activity>
+        <activity android:name=".activityTest.MainActivityHaracter" />
         <activity android:name=".activityTest.MainActivityIntelect" />
         <activity android:name=".activityTest.MainActivitySposobnosti" />
-        <activity android:name=".activityTest.MainActivitySex" />
+        <activity android:name=".activityTest.MainActivityFamily" />
         <activity
             android:name=".tests.honesty_tests"
             android:label="@string/title_activity_level1">

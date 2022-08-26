@@ -151,6 +151,59 @@
         просто мукой даже для самых близких вам людей.
         Будьте доброжелательнее, и у вас будет больше друзей. Ведь дружба требует доброго отношения...</string>
 
+    <string name="Entrepreneur1_1"> Безынициативный, ждет указаний</string>
+    <string name="Entrepreneur1_2"> Зачастую с ним трудно работать</string>
+    <string name="Entrepreneur1_3"> Ведомый</string>
+    <string name="Entrepreneur1_4"> Уклоняется от любых поручений</string>
+    <string name="Entrepreneur1_5"> Плохой организатор</string>
+    <string name="Entrepreneur1_6"> Сомневающийся и боязливый</string>
+    <string name="Entrepreneur1_7"> Почти никакого упорства</string>
+
+
+
+    <string name="Entrepreneur2_1"> Выполняет необходимый объем работ без указаний руководства</string>
+    <string name="Entrepreneur2_2"> Иногда с ним трудно работать</string>
+    <string name="Entrepreneur2_3"> Ведущий</string>
+    <string name="Entrepreneur2_4"> Неохотно соглашается с поручениями</string>
+    <string name="Entrepreneur2_5"> Средние организаторские способности</string>
+    <string name="Entrepreneur2_6"> Быстрый, но часто делает ошибки</string>
+    <string name="Entrepreneur2_7"> Средний уровень упорства и решительности</string>
+
+
+
+    <string name="Entrepreneur3_1"> Находчив, смекалист при выполнении задания</string>
+    <string name="Entrepreneur3_2"> Приятный в обхождении, вежливый</string>
+    <string name="Entrepreneur3_3"> Умело отдает эффективные приказы</string>
+    <string name="Entrepreneur3_4"> Соглашается с поручениями, хотя и не без протеста</string>
+    <string name="Entrepreneur3_5"> Способный организатор</string>
+    <string name="Entrepreneur3_6"> Основательный и осторожный, осмотрительный</string>
+    <string name="Entrepreneur3_7"> Предпринимает постоянные усилия?</string>
+
+
+
+    <string name="Entrepreneur4_1"> Ищете дополнительные задачи, очень искренне</string>
+    <string name="Entrepreneur4_2"> Позитивное начало, дружелюбное отношение к людям</string>
+    <string name="Entrepreneur4_3"> Сильны, внушаете уверенность и доверие</string>
+    <string name="Entrepreneur4_4"> Проявляете ответственность при выполнении поручений</string>
+    <string name="Entrepreneur4_5"> Очень способны в убеждении людей и выстраивании фактов в логическом порядке</string>
+    <string name="Entrepreneur4_6"> Быстры и точны</string>
+    <string name="Entrepreneur4_7"> Целеустремленный, его нелегко обескуражить</string>
+
+    <string name="EntrepreneurAnswer25_28"> Отличный шанс</string>
+    <string name="EntrepreneurAnswer21_24"> Очень хороший шанс</string>
+    <string name="EntrepreneurAnswer17_20"> Хороший шанс</string>
+    <string name="EntrepreneurAnswer13_16"> Средний шанс</string>
+    <string name="EntrepreneurAnswer12"> Очень низкий шанс стать предпринимателем</string>
+
+    <string name="Entrepreneur1_Qw"> Инициатива</string>
+    <string name="Entrepreneur2_Qw"> Отношение к другим</string>
+    <string name="Entrepreneur3_Qw"> Лидерство</string>
+    <string name="Entrepreneur4_Qw"> Ответственность</string>
+    <string name="Entrepreneur5_Qw"> Организаторские способности</string>
+    <string name="Entrepreneur6_Qw"> Решительность</string>
+    <string name="Entrepreneur7_Qw"> Упорство</string>
+
+
 
     <string name="title_activity_main2">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -163,7 +216,7 @@
     <string name="sposobnosti_item">Тесты на способности</string>
     <string name="main_page">Главная страница</string>
     <string name="haracter_item">Тесты на характер</string>
-    <string name="sex_item">Тесты на секс</string>
-    <string name="sex_intelect">Тесты на интелект</string>
+    <string name="family_item">Семейные тесты</string>
+    <string name="test_intelect">Тесты на интелект</string>
 
 </resources>
