@@ -7,7 +7,7 @@
     android:background="@color/backGroung"
 
     android:padding="@dimen/box_inset_layout_padding"
-    tools:context=".tests.honesty_tests"
+    tools:context=".tests.Kindness"
     tools:deviceIds="wear">
 
 
@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto"
-            android:text="15"
+            android:text="12"
             android:textColor="@color/text"
             android:textSize="22sp" />
     </LinearLayout>
@@ -62,69 +62,61 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="60dp"
         android:orientation="vertical">
+
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
             android:fontFamily="@font/roboto"
-            android:text="@string/observationqw1"
-            android:gravity="center"
-            android:textSize="22sp"
-            android:textColor="@color/text" />
+            android:text="@string/kindness1"
+            android:textColor="@color/text"
+            android:textSize="22sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
-        android:orientation="vertical">
+        android:layout_marginTop="300dp"
+        android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="5dp"
-            android:paddingTop="2dp"
-            android:padding="10dp"
-            android:background="@drawable/btn_game_true_and_false"
-            android:fontFamily="@font/roboto"
-            android:textColor="@color/text"
-            android:text="@string/observationAnwer1_10"
-            android:textSize="18sp" />
+    <Button
+        android:id="@+id/buttonYes"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_weight="1"
+        android:background="@drawable/stule_btn_black95_and_true"
+        android:fontFamily="@font/roboto"
+        android:text="Да"
+        android:textColor="@color/text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonNo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="2dp"
-            android:padding="10dp"
-            android:textSize="18sp"
-            android:background="@drawable/btn_game_true_and_false"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="5dp"
-            android:textColor="@color/text"
-            android:text="@string/observationAnwer1_5" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="2dp"
-            android:padding="10dp"
-            android:textSize="18sp"
-            android:fontFamily="@font/roboto"
-            android:background="@drawable/btn_game_true_and_false"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="5dp"
-            android:textColor="@color/text"
-            android:text="@string/observationAnwer1_3" />
+    <Button
+        android:id="@+id/buttonNo"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="32dp"
+        android:layout_weight="1"
+        android:background="@drawable/stule_btn_black95_and_true"
+        android:fontFamily="@font/roboto"
+        android:text="Нет"
+        android:textColor="@color/text"
+        android:textSize="24sp"
+         />
     </LinearLayout>
 
     <LinearLayout
@@ -133,19 +125,24 @@
         android:layout_alignParentBottom="true"
         android:layout_margin="50dp"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/buttonBack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
             android:layout_weight="1"
             android:padding="8dp"
-            android:textColor="@color/text"
             android:fontFamily="@font/roboto"
             android:background="@drawable/stule_btn_black95_and_true"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="10dp"
-            android:text="Вернуться к списку тестов" />
+            android:text="Вернуться к списку тестов"
+            android:textColor="@color/text"
+            android:textSize="24sp" />
 
     </LinearLayout>
+
+
+
+
 </RelativeLayout>

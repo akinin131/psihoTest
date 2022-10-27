@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_page"
+            android:title="@string/main_page"
+            />
+
+        <item
+            android:id="@+id/sposobnosti"
+
+            android:title="@string/sposobnosti_item" />
+        <item
+            android:id="@+id/haracter"
+
+            android:title="@string/haracter_item" />
+        <item
+            android:id="@+id/test_intelect"
+
+            android:title="@string/test_intelect" />
+        <item
+            android:id="@+id/test_sex"
+
+            android:title="@string/family_item" />
+        <item
+            android:id="@+id/izbrannoe"
+
+            android:title="История пройденных тестов" />
+
+        <item
+            android:id="@+id/setting"
+
+            android:title="Настройки" />
+    </group>
+</menu>

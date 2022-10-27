@@ -10,7 +10,6 @@
     tools:context=".tests.honesty_tests"
     tools:deviceIds="wear">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,11 +53,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto"
-            android:text="15"
+            android:text="7"
             android:textColor="@color/text"
             android:textSize="22sp" />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -68,63 +66,77 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:layout_height="wrap_content"
             android:fontFamily="@font/roboto"
-            android:text="@string/observationqw1"
-            android:gravity="center"
-            android:textSize="22sp"
-            android:textColor="@color/text" />
+            android:text="@string/Entrepreneur1_Qw"
+            android:textColor="@color/text"
+            android:textSize="22sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="300dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="5dp"
-            android:paddingTop="2dp"
-            android:padding="10dp"
             android:background="@drawable/btn_game_true_and_false"
-            android:fontFamily="@font/roboto"
+            android:padding="10dp"
+            android:paddingTop="2dp"
+            android:text="@string/Entrepreneur1_1"
             android:textColor="@color/text"
-            android:text="@string/observationAnwer1_10"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="2dp"
-            android:padding="10dp"
-            android:textSize="18sp"
-            android:background="@drawable/btn_game_true_and_false"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="5dp"
+            android:fontFamily="@font/roboto"
+            android:background="@drawable/btn_game_true_and_false"
+            android:padding="10dp"
+            android:paddingTop="2dp"
+            android:text="@string/Entrepreneur2_1"
             android:textColor="@color/text"
-            android:text="@string/observationAnwer1_5" />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="2dp"
-            android:padding="10dp"
-            android:textSize="18sp"
-            android:fontFamily="@font/roboto"
-            android:background="@drawable/btn_game_true_and_false"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="5dp"
+            android:background="@drawable/btn_game_true_and_false"
+            android:padding="10dp"
+            android:paddingTop="2dp"
+            android:text="@string/Entrepreneur3_1"
             android:textColor="@color/text"
-            android:text="@string/observationAnwer1_3" />
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/roboto"
+            android:background="@drawable/btn_game_true_and_false"
+            android:padding="10dp"
+            android:paddingTop="2dp"
+            android:text="@string/Entrepreneur4_1"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -133,19 +145,20 @@
         android:layout_alignParentBottom="true"
         android:layout_margin="50dp"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/buttonBack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
             android:layout_weight="1"
             android:padding="8dp"
-            android:textColor="@color/text"
             android:fontFamily="@font/roboto"
             android:background="@drawable/stule_btn_black95_and_true"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="10dp"
-            android:text="Вернуться к списку тестов" />
+            android:text="Вернуться к списку тестов"
+            android:textColor="@color/text"
+            android:textSize="24sp" />
 
     </LinearLayout>
 </RelativeLayout>

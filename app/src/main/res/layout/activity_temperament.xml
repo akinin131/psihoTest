@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backGroung"
-
     android:padding="@dimen/box_inset_layout_padding"
     tools:context=".tests.honesty_tests"
     tools:deviceIds="wear">
@@ -31,7 +30,6 @@
             android:id="@+id/numberQW"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:paddingLeft="10dp"
             android:paddingRight="2dp"
             android:fontFamily="@font/roboto"
@@ -42,7 +40,6 @@
             android:id="@+id/vopros1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:paddingLeft="2dp"
             android:paddingRight="5dp"
             android:fontFamily="@font/roboto"
@@ -54,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto"
-            android:text="15"
+            android:text="20"
             android:textColor="@color/text"
             android:textSize="22sp" />
     </LinearLayout>
@@ -66,16 +63,16 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textViewQW"
             android:layout_width="match_parent"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto"
-            android:text="@string/observationqw1"
             android:gravity="center"
-            android:textSize="22sp"
-            android:textColor="@color/text" />
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Выберете вариант наиболее близкий к вам"
+            android:textColor="@color/text"
+            android:textSize="22sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -86,45 +83,63 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textViewQ"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="5dp"
             android:paddingTop="2dp"
+            android:textSize="18sp"
+            android:layout_marginLeft="12dp"
             android:padding="10dp"
             android:background="@drawable/btn_game_true_and_false"
             android:fontFamily="@font/roboto"
+            android:layout_marginRight="5dp"
             android:textColor="@color/text"
-            android:text="@string/observationAnwer1_10"
-            android:textSize="18sp" />
+            android:text="@string/Flegmatik1_Qw" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="2dp"
-            android:padding="10dp"
             android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/btn_game_true_and_false"
+            android:fontFamily="@font/roboto"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="5dp"
             android:textColor="@color/text"
-            android:text="@string/observationAnwer1_5" />
+            android:text="@string/Halerik1_Qw" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="2dp"
-            android:padding="10dp"
-            android:textSize="18sp"
-            android:fontFamily="@font/roboto"
-            android:background="@drawable/btn_game_true_and_false"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="5dp"
+            android:padding="10dp"
+            android:background="@drawable/btn_game_true_and_false"
+            android:fontFamily="@font/roboto"
             android:textColor="@color/text"
-            android:text="@string/observationAnwer1_3" />
+            android:textSize="18sp"
+            android:text="@string/Sangvinik1_Qw" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:textSize="18sp"
+            android:background="@drawable/btn_game_true_and_false"
+            android:fontFamily="@font/roboto"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"
+            android:textColor="@color/text"
+            android:text="@string/Melanholik1_Qw" />
     </LinearLayout>
 
     <LinearLayout
@@ -133,19 +148,19 @@
         android:layout_alignParentBottom="true"
         android:layout_margin="50dp"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/buttonBack"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:layout_weight="1"
-            android:padding="8dp"
-            android:textColor="@color/text"
-            android:fontFamily="@font/roboto"
-            android:background="@drawable/stule_btn_black95_and_true"
-            android:layout_marginEnd="20dp"
+            android:layout_width="317dp"
+            android:layout_height="70dp"
             android:layout_marginStart="10dp"
-            android:text="Вернуться к списку тестов" />
-
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/stule_btn_black95_and_true"
+            android:fontFamily="@font/roboto"
+            android:padding="8dp"
+            android:text="Вернуться к списку тестов"
+            android:textColor="@color/text"
+            android:textSize="24sp" />
     </LinearLayout>
 </RelativeLayout>

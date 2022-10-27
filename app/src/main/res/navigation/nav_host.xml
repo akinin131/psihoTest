@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/izbrannoeFragment">
+
+    <fragment
+        android:id="@+id/izbrannoeFragment"
+        android:name="quiz.example.psychologytests.activityTest.FragmentActivity.IzbrannoeFragment"
+        android:label="fragment_izbrannoe"
+        tools:layout="@layout/fragment_izbrannoe" >
+        <action
+            android:id="@+id/action_izbrannoeFragment_pop"
+            app:popUpTo="@id/izbrannoeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

@@ -16,75 +16,60 @@ import quiz.example.psychologytests.R;
 import quiz.example.psychologytests.activityTest.MainActivity;
 import quiz.example.psychologytests.activityTest.Room.AppDatabase;
 import quiz.example.psychologytests.activityTest.Room.User;
-import quiz.example.psychologytests.qw.level1Qw;
+import quiz.example.psychologytests.qw.KindnessQw;
 
-public class honesty_tests extends AppCompatActivity {
+public class Kindness extends AppCompatActivity {
     Button buttonYes;
     Button buttonBack;
     Button buttonNo;
     TextView textViewQw;
+    int count = 0;
+    int index = 0;
+    Dialog dialog;
+
+
     TextView numberQwTextView;
     TextView voprosTextView;
     TextView vopros1TextView;
     TextView vopros2TextView;
-    int count = 0;
-    int index = 0;
     int numberQw = 1;
-    Dialog dialog;
 
 
-private  level1Qw[] level1Qw1 = new level1Qw[]{
-       new level1Qw(true, R.string.level1qw1),
-       new level1Qw(false, R.string.level1qw2),
-       new level1Qw(true, R.string.level1qw3),
-       new level1Qw(false, R.string.level1qw4),
-       new level1Qw(true, R.string.level1qw5),
-       new level1Qw(true, R.string.level1qw6),
-       new level1Qw(false, R.string.level1qw7) ,
-       new level1Qw(true, R.string.level1qw8) ,
-       new level1Qw(true, R.string.level1qw9) ,
-       new level1Qw(true, R.string.level1qw10) ,
-       new level1Qw(true, R.string.level1qw11) ,
-       new level1Qw(true, R.string.level1qw12) ,
-       new level1Qw(false, R.string.level1qw13) ,
-       new level1Qw(true, R.string.level1qw14) ,
-       new level1Qw(true, R.string.level1qw15) ,
-       new level1Qw(true, R.string.level1qw16) ,
-       new level1Qw(true, R.string.level1qw17) ,
-       new level1Qw(true, R.string.level1qw18) ,
-       new level1Qw(true, R.string.level1qw19) ,
-       new level1Qw(true, R.string.level1qw20) ,
-       new level1Qw(true, R.string.level1qw21) ,
-       new level1Qw(true, R.string.level1qw22) ,
-       new level1Qw(true, R.string.level1qw23) ,
-       new level1Qw(true, R.string.level1qw24) ,
-       new level1Qw(true, R.string.level1qw25) ,
-       new level1Qw(false, R.string.level1qw26) ,
-       new level1Qw(false, R.string.level1qw27) ,
-       new level1Qw(true, R.string.level1qw28) ,
-       new level1Qw(true, R.string.level1qw29) ,
-       new level1Qw(true, R.string.level1qw30) ,
-       new level1Qw(true, R.string.level1qw31) ,
-       new level1Qw(true, R.string.level1qw32) ,
-       new level1Qw(true, R.string.level1qw33)
-};
+
+
+    private KindnessQw[] kindnessQws = new KindnessQw[]{
+            new KindnessQw(true, R.string.kindness1),
+            new KindnessQw(false, R.string.kindness2),
+            new KindnessQw(true, R.string.kindness3),
+            new KindnessQw(true, R.string.kindness4),
+            new KindnessQw(false, R.string.kindness5),
+            new KindnessQw(false, R.string.kindness6),
+            new KindnessQw(true, R.string.kindness7),
+            new KindnessQw(false, R.string.kindness8),
+            new KindnessQw(false, R.string.kindness9),
+            new KindnessQw(false, R.string.kindness10),
+            new KindnessQw(true, R.string.kindness11),
+            new KindnessQw(false, R.string.kindness12),
+    };
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_level1);
+        setContentView(R.layout.activity_kindenss);
 
         buttonYes = findViewById(R.id.buttonYes);
         buttonNo = findViewById(R.id.buttonNo);
         textViewQw = findViewById(R.id.textView);
+        buttonBack = findViewById(R.id.buttonBack);
+
         numberQwTextView = findViewById(R.id.numberQW);
         voprosTextView = findViewById(R.id.vopros);
         vopros1TextView = findViewById(R.id.vopros1);
         vopros2TextView = findViewById(R.id.vopros2);
-        buttonBack = findViewById(R.id.buttonBack);
 
-        textViewQw.setText(level1Qw1[index].getNumberQw());
+
+        textViewQw.setText(kindnessQws[index].getNumberQw());
         buttonBack.setVisibility(View.GONE);
         buttonBack.setClickable(false);
         dialog = new Dialog(this);
@@ -95,27 +80,26 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
         Button btncontinue1 = dialog.findViewById(R.id.buttondiolog);
         TextView btnconсclose = dialog.findViewById(R.id.btnclose);
         TextView textView1 = dialog.findViewById(R.id.text);
-        textView1.setText(R.string.Test_honesty_dialog);
-        //dialog.show();
+        textView1.setText(R.string.kindness_dialog);
+        dialog.show();
+
 
         btncontinue1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 dialog.dismiss();
-
             }
         });
+
         btnconсclose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(honesty_tests.this, MainActivity.class);
+                Intent intent = new Intent(Kindness.this, MainActivity.class);
                 startActivity(intent);
                 finish();
                 dialog.dismiss();
-
             }
         });
-        dialog.show();
 
         buttonYes.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -124,8 +108,6 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
                 numberQw++;
                 String b = String.valueOf(numberQw);
                 numberQwTextView.setText(b);
-
-
             }
         });
         buttonNo.setOnClickListener(new View.OnClickListener() {
@@ -140,12 +122,11 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
         buttonBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              Intent intent = new Intent(honesty_tests.this, MainActivity.class);
-              startActivity(intent);
-              finish();
+                Intent intent = new Intent(Kindness.this, MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
-
     }
     public void saveNewUser(String firstName, String lastName) {
         AppDatabase db  = AppDatabase.getDbInstance(this.getApplicationContext());
@@ -156,10 +137,12 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
         db.userDao().insertUser(user);
     }
 
+
     private void AnswerClock(boolean answer) {
 
         index++;
-        if(index ==33){
+        if (index == 12) {
+
             numberQwTextView.setVisibility(View.GONE);
             numberQwTextView.setClickable(false);
 
@@ -171,10 +154,10 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
 
             vopros2TextView.setClickable(false);
             vopros2TextView.setVisibility(View.GONE);
+            saveNewUser("Тест на честность","12 вопросов");
 
-            saveNewUser("Тест на доброту","33 Вопроса");
-            if (count<=5){
-                textViewQw.setText(R.string.level1_oneAnswer);
+            if (count < 4) {
+                textViewQw.setText(R.string.kindness_threeAnswer);
                 buttonYes.setVisibility(View.GONE);
                 buttonYes.setClickable(false);
                 buttonNo.setVisibility(View.GONE);
@@ -182,11 +165,8 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
                 buttonBack.setVisibility(View.VISIBLE);
                 buttonBack.setClickable(true);
 
-
-
-            }
-             else if (count>5 &&count <=13){
-                textViewQw.setText(R.string.level1_twoAnswer);
+            } else if (count >= 4 && count <= 8) {
+                textViewQw.setText(R.string.kindness_twoAnswer);
                 buttonYes.setVisibility(View.GONE);
                 buttonYes.setClickable(false);
                 buttonNo.setVisibility(View.GONE);
@@ -194,43 +174,23 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
                 buttonBack.setVisibility(View.VISIBLE);
                 buttonBack.setClickable(true);
 
-
-
-            }
-            else if (count>13 &&count <=29){
-                textViewQw.setText(R.string.level1_threeAnswer);
-
-
+            } else if (count > 8) {
+                textViewQw.setText(R.string.kindness_oneAnswer);
                 buttonYes.setVisibility(View.GONE);
                 buttonYes.setClickable(false);
                 buttonNo.setVisibility(View.GONE);
                 buttonNo.setClickable(false);
                 buttonBack.setVisibility(View.VISIBLE);
                 buttonBack.setClickable(true);
-
-
             }
-            else if (count>29 &&count <=34){
-                textViewQw.setText(R.string.level1_fourAnswer);
-                buttonYes.setVisibility(View.GONE);
-                buttonYes.setClickable(false);
-                buttonNo.setVisibility(View.GONE);
 
-                buttonNo.setClickable(false);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
-
-
-
-            }
-        }else if (answer == level1Qw1[index].isAnswer()){
-            textViewQw.setText(level1Qw1[index].getNumberQw());
+        } else if (answer == kindnessQws[index].isAnswer()) {
+            textViewQw.setText(kindnessQws[index].getNumberQw());
             count++;
 
-        }else {
-            textViewQw.setText(level1Qw1[index].getNumberQw());
+        } else {
+            textViewQw.setText(kindnessQws[index].getNumberQw());
         }
     }
-
 
 }

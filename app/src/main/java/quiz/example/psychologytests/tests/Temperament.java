@@ -1,5 +1,7 @@
 package quiz.example.psychologytests.tests;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
@@ -10,26 +12,25 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import quiz.example.psychologytests.activityTest.Room.AppDatabase;
-import quiz.example.psychologytests.activityTest.Room.User;
-import quiz.example.psychologytests.qw.ObservationQw;
 import quiz.example.psychologytests.R;
 import quiz.example.psychologytests.activityTest.MainActivity;
+import quiz.example.psychologytests.activityTest.Room.AppDatabase;
+import quiz.example.psychologytests.activityTest.Room.User;
+import quiz.example.psychologytests.qw.TemperamentQw;
 
-public class Observation_tests extends AppCompatActivity {
-
+public class Temperament extends AppCompatActivity {
     Button buttonBack;
 
-    TextView textViewQw;
+    TextView textViewQwMelanholik;
     TextView textViewQw_one;
     TextView textViewQw_two;
     TextView textViewQw_free;
-    int count = 0;
-    int index = 0;
-    Dialog dialog;
-
+    TextView textViewQw;
+    float countHalerik = 0;
+    float countSangvinik = 0;
+    float countFlegmatik = 0;
+    float countMelanholik = 0;
+    float index = 0;
 
     TextView numberQwTextView;
     TextView voprosTextView;
@@ -37,16 +38,18 @@ public class Observation_tests extends AppCompatActivity {
     TextView vopros2TextView;
     int numberQw = 1;
 
-ObservationQw obs = new ObservationQw();
-
+    Dialog dialog;
+    TemperamentQw obs = new TemperamentQw();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_observation);
+        setContentView(R.layout.activity_temperament);
 
-        textViewQw = findViewById(R.id.textView);
+        textViewQwMelanholik = findViewById(R.id.textView4);
+        textViewQw = findViewById(R.id.textViewQW);
         buttonBack = findViewById(R.id.buttonBack);
+
         dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.previewdialog);
@@ -55,7 +58,7 @@ ObservationQw obs = new ObservationQw();
         Button btncontinue1 = dialog.findViewById(R.id.buttondiolog);
         TextView btnconсclose = dialog.findViewById(R.id.btnclose);
         TextView textView1 = dialog.findViewById(R.id.text);
-        textView1.setText(R.string.observationqw_dialog);
+        textView1.setText(R.string.test_temperament);
 
         numberQwTextView = findViewById(R.id.numberQW);
         voprosTextView = findViewById(R.id.vopros);
@@ -70,27 +73,31 @@ ObservationQw obs = new ObservationQw();
 
             }
         });
-        dialog.show();
-
         btnconсclose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Observation_tests.this, MainActivity.class);
+                Intent intent = new Intent(Temperament.this, MainActivity.class);
                 startActivity(intent);
                 finish();
+                dialog.dismiss();
+
+
             }
         });
 
         buttonBack.setVisibility(View.GONE);
         buttonBack.setClickable(false);
-        textViewQw_one = findViewById(R.id.textView1);
-        textViewQw_two=findViewById(R.id.textView2);
-        textViewQw_free =findViewById(R.id.textView3);
+        textViewQw_one = findViewById(R.id.textViewQ);
+        textViewQw_two = findViewById(R.id.textView2);
+        textViewQw_free = findViewById(R.id.textView3);
+
+
+        dialog.show();
 
         textViewQw_one.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                count = count +10;
+                countHalerik++;
                 AnswerClock();
                 numberQw++;
                 String b = String.valueOf(numberQw);
@@ -102,7 +109,7 @@ ObservationQw obs = new ObservationQw();
         textViewQw_two.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                count = count +5;
+                countSangvinik++;
                 AnswerClock();
                 numberQw++;
                 String b = String.valueOf(numberQw);
@@ -115,7 +122,7 @@ ObservationQw obs = new ObservationQw();
             @Override
             public void onClick(View view) {
 
-                count = count +3;
+                countFlegmatik++;
                 AnswerClock();
                 numberQw++;
                 String b = String.valueOf(numberQw);
@@ -123,14 +130,24 @@ ObservationQw obs = new ObservationQw();
 
             }
         });
+        textViewQwMelanholik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                countMelanholik++;
+                AnswerClock();
+                numberQw++;
+                String b = String.valueOf(numberQw);
+                numberQwTextView.setText(b);
+            }
+        });
 
         buttonBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              Intent intent = new Intent(Observation_tests.this, MainActivity.class);
-              startActivity(intent);
-              finish();
-
+                Intent intent = new Intent(Temperament.this, MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
     }
@@ -144,15 +161,13 @@ ObservationQw obs = new ObservationQw();
         db.userDao().insertUser(user);
     }
 
-
     private void AnswerClock() {
 
         index++;
 
-        if(index ==15){
-            textViewQw_one.setVisibility(View.GONE);
-            textViewQw_two.setVisibility(View.GONE);
-            textViewQw_free.setVisibility(View.GONE);
+        if (index == 20) {
+
+
             numberQwTextView.setVisibility(View.GONE);
             numberQwTextView.setClickable(false);
 
@@ -165,41 +180,29 @@ ObservationQw obs = new ObservationQw();
             vopros2TextView.setClickable(false);
             vopros2TextView.setVisibility(View.GONE);
 
-            saveNewUser("Тест на внимательность","15 вопросов");
-            if (count<=74){
-                textViewQw.setText(R.string.observation_threeAnswer);
+            buttonBack.setClickable(true);
+            buttonBack.setVisibility(View.VISIBLE);
+            countFlegmatik = (countFlegmatik / 20) * 100;
+            countMelanholik = (countMelanholik / 20) * 100;
+            countSangvinik = (countSangvinik / 20) * 100;
+            countHalerik = (countHalerik / 20) * 100;
+            textViewQw_one.setText("Флегматик: "+countFlegmatik+ "%");
+            textViewQw_two.setText("Меланхолик: "+countMelanholik+ "%");
+            textViewQw_free.setText("Сангвиниг: "+countSangvinik+ "%");
+            textViewQwMelanholik.setText("Халерик: "+countHalerik+ "%");
+            textViewQw.setText("Ваши результаты: (Выраженность качеств темперамента: от 40 %" +
+                    " и выше – данный вид темперамента у вас доминирует;\n" +
+                    "от 30 и более – качества данного темперамента выражены ярко)");
 
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
+            saveNewUser("Тест на темперамент","20 вопросов");
 
-            }
-             else if (count>75 &&count <=99){
-                textViewQw.setText(R.string.observation_twoAnswer);
-
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
-            }
-
-            else if (count>100 &&count <=150){
-                textViewQw.setText(R.string.observation_oneAnswer);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
-
-            }
-            else if (count>29 &&count <=34){
-                textViewQw.setText(R.string.level1_fourAnswer);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
-            }
-        }else {
-            textViewQw_one.setText(obs.oneText_10[index]);
-            textViewQw_two.setText(obs.oneText_5[index]);
-            textViewQw_free.setText(obs.oneText_3[index]);
-            textViewQw.setText(obs.observationQw[index]);
-        }
-
+        } else {
+            textViewQw_one.setText(obs.oneText_Halerik[(int) index]);
+            textViewQw_two.setText(obs.oneText_Sangvinik[(int) index]);
+            textViewQw_free.setText(obs.oneText_Flegmatik[(int) index]);
+            textViewQwMelanholik.setText(obs.oneText_Melanholik[(int) index]);
         }
     }
-
+}
 
 

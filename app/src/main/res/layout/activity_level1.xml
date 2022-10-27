@@ -15,70 +15,134 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/vopros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="Вопрос"
+            android:textColor="@color/text"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/numberQW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="2dp"
+            android:fontFamily="@font/roboto"
+            android:text="1"
+            android:textColor="@color/text"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/vopros1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="2dp"
+            android:paddingRight="5dp"
+            android:fontFamily="@font/roboto"
+            android:text="/"
+            android:textColor="@color/text"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/vopros2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="33"
+            android:textColor="@color/text"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         android:orientation="vertical">
+
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:fontFamily="@font/roboto"
             android:text="@string/level1qw1"
-            android:gravity="center"
-            android:textSize="22sp"
-            android:textColor="@color/text" />
+            android:textColor="@color/text"
+            android:textSize="22sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="300dp"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/buttonYes"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/stule_btn_black95_and_true"
-            android:text="Да"
-            android:layout_weight="1"
-            android:textColor="@color/text"
-            android:textSize="24sp" />
+    <Button
+        android:id="@+id/buttonYes"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_weight="1"
+        android:background="@drawable/stule_btn_black95_and_true"
+        android:fontFamily="@font/roboto"
+        android:text="Да"
+        android:textColor="@color/text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonNo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
 
-        <Button
-            android:id="@+id/buttonNo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:layout_weight="1"
-            android:textColor="@color/text"
-            android:background="@drawable/stule_btn_black95_and_true"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="10dp"
-            android:text="Нет" />
+    <Button
+        android:id="@+id/buttonNo"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="32dp"
+        android:layout_weight="1"
+        android:background="@drawable/stule_btn_black95_and_true"
+        android:fontFamily="@font/roboto"
+        android:text="Нет"
+        android:textColor="@color/text"
+        android:textSize="24sp"
+         />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-       android:layout_margin="50dp"
-
+        android:layout_margin="50dp"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/buttonBack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:layout_weight="1"
-            android:textColor="@color/text"
-            android:background="@drawable/stule_btn_black95_and_true"
-            android:layout_marginEnd="20dp"
             android:layout_marginStart="10dp"
-            android:text="Вернуться к списку тестов" />
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:fontFamily="@font/roboto"
+            android:background="@drawable/stule_btn_black95_and_true"
+            android:text="Вернуться к списку тестов"
+            android:textColor="@color/text"
+            android:textSize="24sp" />
 
     </LinearLayout>
+
+
+
+
 </RelativeLayout>
