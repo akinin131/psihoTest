@@ -38,7 +38,7 @@ public class MainActivityIntelect extends AppCompatActivity implements Navigatio
         StateAdapterIntelect adapter = new StateAdapterIntelect(this, states1,this);
         // устанавливаем для списка адаптер
         recyclerView.setAdapter(adapter);
-
+        setTitle(getString(R.string.test_intelect));
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -52,7 +52,7 @@ public class MainActivityIntelect extends AppCompatActivity implements Navigatio
         navigationView.setNavigationItemSelectedListener(this);
     }
     private void setInitialData(){
-        states1.add(new StateIntelect("Тест на внимательность",  "15 Вопросов"));
+
     }
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {

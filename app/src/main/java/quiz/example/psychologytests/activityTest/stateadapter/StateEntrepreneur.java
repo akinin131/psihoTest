@@ -2,23 +2,28 @@ package quiz.example.psychologytests.activityTest.stateadapter;
 
 public class StateEntrepreneur {
 
-    private String name; // название
-    private String name1; // название
+    private int name; // название
+
+    public int getName1() {
+        return name1;
+    }
+
+    private int name1; // название
 
     private int flagResource; // ресурс флага
 
-    public StateEntrepreneur(String name,  String name1){
+    public StateEntrepreneur(int name, int name1){
 
         this.name=name;
 
         this.name1=name1;
     }
 
-    public String getName() {
+    public int getName() {
         return this.name;
     }
 
-    public void setName(String name) {
+    public void setName(int name) {
         this.name = name;
     }
 

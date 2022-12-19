@@ -23,7 +23,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:fontFamily="@font/roboto"
-            android:text="Вопрос"
+            android:text="@string/Question"
             android:textColor="@color/text"
             android:textSize="22sp" />
         <TextView
@@ -81,7 +81,11 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="300dp"
-        android:orientation="vertical">
+        android:divider="@drawable/separator"
+        android:dividerPadding="4dp"
+        android:showDividers="middle"
+        android:orientation="vertical"
+        >
 
         <TextView
             android:id="@+id/textView1"
@@ -156,7 +160,7 @@
             android:padding="8dp"
             android:fontFamily="@font/roboto"
             android:background="@drawable/stule_btn_black95_and_true"
-            android:text="Вернуться к списку тестов"
+            android:text="@string/BacTotheList"
             android:textColor="@color/text"
             android:textSize="24sp" />
 

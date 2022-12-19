@@ -135,7 +135,7 @@ ObservationQw obs = new ObservationQw();
         });
     }
 
-    public void saveNewUser(String firstName, String lastName) {
+    public void saveNewUser(int firstName, int lastName) {
         AppDatabase db  = AppDatabase.getDbInstance(this.getApplicationContext());
 
         User user = new User();
@@ -165,7 +165,7 @@ ObservationQw obs = new ObservationQw();
             vopros2TextView.setClickable(false);
             vopros2TextView.setVisibility(View.GONE);
 
-            saveNewUser("Тест на внимательность","15 вопросов");
+            saveNewUser(R.string.Mindfulness_Test,R.string.Mindfulnessqw);
             if (count<=74){
                 textViewQw.setText(R.string.observation_threeAnswer);
 

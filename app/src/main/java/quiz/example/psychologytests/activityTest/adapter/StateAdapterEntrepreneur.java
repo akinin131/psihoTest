@@ -1,9 +1,11 @@
 package quiz.example.psychologytests.activityTest.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -12,6 +14,8 @@ import java.util.List;
 
 import quiz.example.psychologytests.R;
 import quiz.example.psychologytests.activityTest.stateadapter.StateEntrepreneur;
+import quiz.example.psychologytests.tests.EntrepreneurTest;
+import quiz.example.psychologytests.tests.Observation_tests;
 
 public class StateAdapterEntrepreneur extends RecyclerView.Adapter<StateAdapterEntrepreneur.ViewHolder> {
 
@@ -35,6 +39,8 @@ public class StateAdapterEntrepreneur extends RecyclerView.Adapter<StateAdapterE
     @Override
     public void onBindViewHolder(StateAdapterEntrepreneur.ViewHolder holder, int position) {
         StateEntrepreneur state = states.get(position);
+        holder.nameView.setText(state.getName());
+        holder.nameView1.setText(state.getName1());
 
     }
 
@@ -45,11 +51,13 @@ public class StateAdapterEntrepreneur extends RecyclerView.Adapter<StateAdapterE
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-
+        final TextView nameView;
+        final TextView nameView1;
         public ViewHolder(View view) {
 
             super(view);
-
+            nameView1 = view.findViewById(R.id.name1);
+            nameView = view.findViewById(R.id.name);
 
             view.setOnClickListener(new View.OnClickListener() {
 
@@ -59,7 +67,12 @@ public class StateAdapterEntrepreneur extends RecyclerView.Adapter<StateAdapterE
 
                     switch (positionIndex) {
                         case 0: {
-
+                            Intent intent = new Intent(context13, EntrepreneurTest.class);
+                            context13.startActivity(intent);
+                        }
+                        case 1: {
+                            Intent intent = new Intent(context13, Observation_tests.class);
+                            context13.startActivity(intent);;
                         }
                     }
                 }

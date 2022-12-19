@@ -39,7 +39,7 @@ public class MainActivitySposobnosti extends AppCompatActivity implements Naviga
         StateAdapterEntrepreneur adapter = new StateAdapterEntrepreneur(this, states1,this);
         // устанавливаем для списка адаптер
         recyclerView.setAdapter(adapter);
-
+        setTitle(getString(R.string.sposobnosti_item));
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -52,8 +52,10 @@ public class MainActivitySposobnosti extends AppCompatActivity implements Naviga
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
     }
+
     private void setInitialData(){
-        states1.add(new StateEntrepreneur("Тест для предпринимателей", "7 вопросов"));
+        states1.add(new StateEntrepreneur(R.string.wealth_test, R.string.wealthsqw));
+        states1.add(new StateEntrepreneur(R.string.Mindfulness_Test, R.string.Mindfulnessqw));
     }
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {

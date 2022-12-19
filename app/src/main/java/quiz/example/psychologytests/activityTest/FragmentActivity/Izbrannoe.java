@@ -27,6 +27,7 @@ import quiz.example.psychologytests.activityTest.MainActivityIntelect;
 import quiz.example.psychologytests.activityTest.MainActivitySposobnosti;
 import quiz.example.psychologytests.activityTest.Room.AppDatabase;
 import quiz.example.psychologytests.activityTest.Room.User;
+import quiz.example.psychologytests.activityTest.Settings;
 import quiz.example.psychologytests.activityTest.UserListAdapter;
 
 
@@ -35,6 +36,7 @@ public class Izbrannoe extends AppCompatActivity implements NavigationView.OnNav
     DrawerLayout drawer;
     private Toolbar toolbar;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +44,7 @@ public class Izbrannoe extends AppCompatActivity implements NavigationView.OnNav
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        setTitle(getString(R.string.Izbrannoe));
         drawer = findViewById(R.id.draver);
         NavigationView navigationView = findViewById(R.id.nav_view);
 
@@ -64,6 +66,7 @@ public class Izbrannoe extends AppCompatActivity implements NavigationView.OnNav
         recyclerView.addItemDecoration(dividerItemDecoration);
         userListAdapter = new UserListAdapter(this);
         recyclerView.setAdapter(userListAdapter);
+        System.out.println(userListAdapter);
     }
 
     private void loadUserList() {
@@ -106,6 +109,11 @@ public class Izbrannoe extends AppCompatActivity implements NavigationView.OnNav
         }
          else if (id == R.id.main_page) {
             Intent intent = new Intent(Izbrannoe.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        }
+        else if (id == R.id.settings) {
+            Intent intent = new Intent(Izbrannoe.this, Settings.class);
             startActivity(intent);
             finish();
         }

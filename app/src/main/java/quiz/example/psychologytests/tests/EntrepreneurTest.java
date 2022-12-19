@@ -140,7 +140,7 @@ public class EntrepreneurTest extends AppCompatActivity {
         });
     }
 
-    public void saveNewUser(String firstName, String lastName) {
+    public void saveNewUser(int firstName, int lastName) {
         AppDatabase db  = AppDatabase.getDbInstance(this.getApplicationContext());
         User user = new User();
         user.firstName = firstName;
@@ -168,7 +168,7 @@ public class EntrepreneurTest extends AppCompatActivity {
 
             vopros2TextView.setClickable(false);
             vopros2TextView.setVisibility(View.GONE);
-            saveNewUser("Тест на богатство","7 вопросов");
+            saveNewUser(R.string.wealth_test,R.string.wealthsqw);
 
             if (count<=12){
                 textViewQw.setText(R.string.EntrepreneurAnswer12);

@@ -28,11 +28,11 @@
         <item
             android:id="@+id/izbrannoe"
 
-            android:title="История пройденных тестов" />
+            android:title="@string/history" />
 
         <item
-            android:id="@+id/setting"
+            android:id="@+id/settings"
 
-            android:title="Настройки" />
+            android:title="@string/Settings" />
     </group>
 </menu>

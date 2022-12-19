@@ -2,29 +2,29 @@ package quiz.example.psychologytests.activityTest.stateadapter;
 
 public class StateMain {
 
-    private String name; // название
-    private String name1; // название
+    private int name; // название
+    private int name1; // название
 
 
-    public StateMain(String name,String name1){
-        this.name=name;
+    public StateMain(int name, int name1){
+        this.name= name;
         this.name1=name1;
     }
 
-    public String getName() {
+    public int getName() {
         return this.name;
     }
 
-    public void setName(String name) {
+    public void setName(int name) {
         this.name = name;
     }
 
 
-    public String getName1() {
+    public int getName1() {
         return name1;
     }
 
-    public void setName1(String name1) {
+    public void setName1(int name1) {
         this.name1 = name1;
     }
 }

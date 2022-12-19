@@ -55,6 +55,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         viewPager2.setAdapter(pagerAdapter);
         viewPager2.setPageTransformer(new ZoomOutPageTransformer());
 
+        setTitle(getString(R.string.AllTest));
+
         setInitialData();
         RecyclerView recyclerView = findViewById(R.id.list1);
         // создаем адаптер
@@ -78,11 +80,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
      void setInitialData() {
-        states1.add(new StateMain("Тест на честность","33 Вопроса"));
-        states1.add(new StateMain("Тест на внимательность","15 Вопросов"));
-        states1.add(new StateMain("Тест на доброту","12 Вопросов"));
-        states1.add(new StateMain("Тест на богатство","7 Вопроса"));
-        states1.add(new StateMain("Тест на темперамент","20 Вопросов"));
+        states1.add(new StateMain(R.string.Honesty_test,R.string.Hotestyqw));
+        states1.add(new StateMain(R.string.Mindfulness_Test,R.string.Mindfulnessqw));
+        states1.add(new StateMain(R.string.Kindness_Test,R.string.Kindnessqw));
+        states1.add(new StateMain(R.string.wealth_test,R.string.wealthsqw));
+        states1.add(new StateMain(R.string.Temperament_Test,R.string.Temperamentqw));
     }
 
     @Override
@@ -108,6 +110,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         else if (id == R.id.izbrannoe) {
             startActivityForResult(new Intent(MainActivity.this, Izbrannoe.class), 100);
+        }
+        else if (id == R.id.settings) {
+            startActivityForResult(new Intent(MainActivity.this, Settings.class), 100);
         }
         drawer.closeDrawer(GravityCompat.START);
         return true;

@@ -11,18 +11,20 @@
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/drawable/btn_clicke.xml" value="0.1415" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/drawable/btn_clicke_false.xml" value="0.1415" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/drawable/btn_game_true_and_false.xml" value="0.1415" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/drawable/separator.xml" value="0.169" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/font/roboto.xml" value="0.1" />
-        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_entrepreneur_test.xml" value="0.2" />
-        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_izbrannoe.xml" value="0.1" />
-        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_kindenss.xml" value="0.1" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_entrepreneur_test.xml" value="0.152" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_izbrannoe.xml" value="0.264" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_kindenss.xml" value="0.16" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_level1.xml" value="0.2" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_main_haracter.xml" value="0.1" />
-        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_main_intelect.xml" value="0.1" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_main_intelect.xml" value="0.264" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_main_sex.xml" value="0.1" />
-        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_main_sposobnosti.xml" value="0.1" />
-        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_observation.xml" value="0.2" />
-        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_temperament.xml" value="0.2" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_main_sposobnosti.xml" value="0.128" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_observation.xml" value="0.1" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_settings.xml" value="0.264" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/activity_temperament.xml" value="0.1" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/content_main.xml" value="0.1" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/fragment1.xml" value="0.1" />
@@ -31,11 +33,13 @@
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/fragment_izbrannoe.xml" value="0.1" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/list_item.xml" value="0.20602409638554217" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
-        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/previewdialog.xml" value="0.15637860082304528" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/previewdialog.xml" value="0.2" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/recycler_row.xml" value="0.4" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/rvspisok.xml" value="0.1" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/layout/separator.xml" value="0.1" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/menu/activity_main_drawer.xml" value="0.4" />
         <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Users/illya/AndroidStudioProjects/PsychologyTests/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>

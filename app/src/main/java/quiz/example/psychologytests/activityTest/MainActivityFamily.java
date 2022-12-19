@@ -58,10 +58,7 @@ public class MainActivityFamily extends AppCompatActivity implements NavigationV
     private void setInitialData(){
 
         states.add(new StateFamily("Пробный тест",  R.drawable.family));
-        states.add(new StateFamily("Пробный тест",  R.drawable.family));
-        states.add(new StateFamily("Пробный тест",  R.drawable.family));
-        states.add(new StateFamily("Пробный тест",  R.drawable.family));
-        states.add(new StateFamily("Пробный тест",  R.drawable.family));
+
 
     }
 

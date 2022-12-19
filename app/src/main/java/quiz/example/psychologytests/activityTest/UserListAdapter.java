@@ -86,6 +86,42 @@ public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.MyView
                         Intent intent = new Intent(context, Kindness.class);
                         context.startActivity(intent);
                     }
+                    else if (tvFirstName.getText().toString().equals("Kindness Test")){
+                        Intent intent = new Intent(context, Kindness.class);
+                        context.startActivity(intent);
+                    }
+                    else if (tvFirstName.getText().toString().equals("Wealth test")){
+                        Intent intent = new Intent(context, Kindness.class);
+                        context.startActivity(intent);
+                    }
+                    else if (tvFirstName.getText().toString().equals("Тест на богатство")){
+                        Intent intent = new Intent(context, Kindness.class);
+                        context.startActivity(intent);
+                    }
+                    else if (tvFirstName.getText().toString().equals("Тест на честность")){
+                        Intent intent = new Intent(context, Kindness.class);
+                        context.startActivity(intent);
+                    }
+                    else if (tvFirstName.getText().toString().equals("Honesty test")){
+                        Intent intent = new Intent(context, Kindness.class);
+                        context.startActivity(intent);
+                    }
+                    else if (tvFirstName.getText().toString().equals("Mindfulness Test")){
+                        Intent intent = new Intent(context, Kindness.class);
+                        context.startActivity(intent);
+                    }
+                    else if (tvFirstName.getText().toString().equals("Тест на внимательность")){
+                        Intent intent = new Intent(context, Kindness.class);
+                        context.startActivity(intent);
+                    }
+                    else if (tvFirstName.getText().toString().equals("Temperament Test")){
+                        Intent intent = new Intent(context, Kindness.class);
+                        context.startActivity(intent);
+                    }
+                    else if (tvFirstName.getText().toString().equals("Тест на темперамент")){
+                        Intent intent = new Intent(context, Kindness.class);
+                        context.startActivity(intent);
+                    }
                 }
             });
 

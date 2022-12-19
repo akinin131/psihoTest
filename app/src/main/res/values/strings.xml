@@ -1,313 +1,321 @@
 <resources>
     <string name="app_name">PsychologyTests</string>
     <string name="title_activity_level1">level1</string>
-    <string name="level1qw1"> Бывает, что я смеюсь над неприличным анекдотом</string>
-    <string name="level1qw2"> Если ко мне обращаются вежливо, то я тоже всегда отвечаю вежливо</string>
-    <string name="level1qw3"> У меня бывают денежные затруднения</string>
-    <string name="level1qw4"> Мне всегда приятно, когда человек, который мне не нравится, добивается заслуженного успеха</string>
-    <string name="level1qw5"> Бывало, откладывал то, что требовалось сделать немедленно</string>
-    <string name="level1qw6"> В компании я веду себя не так, как дома</string>
-    <string name="level1qw7"> Я полностью свободен от всяких предрассудков</string>
-    <string name="level1qw8"> Я не всегда говорю правду</string>
-    <string name="level1qw9"> Когда я с кем-нибудь играю, мне всегда хочется победить</string>
-    <string name="level1qw10"> Иногда я сержусь</string>
-    <string name="level1qw11"> В свое оправдание я иногда кое-что выдумывал</string>
-    <string name="level1qw12"> Бывает, что я выхожу из себя</string>
-    <string name="level1qw13"> В детстве я сразу и без пререканий делал всё, что от меня требовалось</string>
-    <string name="level1qw14"> Иногда я раздражен чем-нибудь</string>
-    <string name="level1qw15"> Бывает, что я смехом реагирую на неприличную шутку</string>
-    <string name="level1qw16"> Бывало, я опаздывал к назначенному времени</string>
-    <string name="level1qw17"> Я люблю иногда посплетничать</string>
-    <string name="level1qw18"> Среди тех, кого я знаю, есть такие лица, которые мне очень не нравятся</string>
-    <string name="level1qw19"> Не помню, чтобы меня особенно опечалили неудачи человека, которого я не могу терпеть</string>
-    <string name="level1qw20"> Мне случалось опаздывать</string>
-    <string name="level1qw21"> Мне свойственно иногда прихвастнуть</string>
-    <string name="level1qw22"> Иногда нет никакого желания чем-либо заняться</string>
-    <string name="level1qw23"> У меня бывают иногда мысли, о которых стыдно рассказывать другим</string>
-    <string name="level1qw24"> Иногда я оказывался причиной плохого настроения кого-нибудь из окружающих</string>
-    <string name="level1qw25"> Бывало, что я говорил неправду</string>
-    <string name="level1qw26"> Все мои привычки положительны</string>
-    <string name="level1qw27"> Если я что-то обещал, то всегда сдерживаю слово несмотря ни на что</string>
-    <string name="level1qw28"> Иногда могу похвастаться</string>
-    <string name="level1qw29"> Подростком я проявлял интерес к запретным темам</string>
-    <string name="level1qw30"> Я откладываю иногда на завтра то, что необходимо сделать сегодня</string>
-    <string name="level1qw31"> У меня бывают мысли, которых следовало бы стыдиться</string>
-    <string name="level1qw32"> Я люблю не всех своих знакомых</string>
-    <string name="level1qw33"> Я могу про кого-нибудь сказать плохо</string>
-    <string name="level1qw34"> Я могу про кого-нибудь сказать плохо</string>
+    <string name="level1qw1"> Sometimes I laugh at an indecent joke</string>
+    <string name="level1qw2"> If they address me politely, I always answer politely too</string>
+    <string name="level1qw3"> sometimes I have money problems</string>
+    <string name="level1qw4"> I am always pleased when a person I do not like achieves well-deserved success</string>
+    <string name="level1qw5"> Sometimes put off what needed to be done immediately</string>
+    <string name="level1qw6">In the society of people I behave differently than at home</string>
+    <string name="level1qw7"> I am completely free from any prejudice</string>
+    <string name="level1qw8"> I dont always tell the truth</string>
+    <string name="level1qw9"> When I play with someone, I always want to win</string>
+    <string name="level1qw10"> Sometimes I get angry</string>
+    <string name="level1qw11"> In my defense, I sometimes invented something</string>
+    <string name="level1qw12"> Sometimes I lose my temper</string>
+    <string name="level1qw13"> As a child, I immediately and without wrangling did everything that was required of me</string>
+    <string name="level1qw14"> Sometimes I get annoyed with something</string>
+    <string name="level1qw15"> It happens that I laugh at an indecent joke</string>
+    <string name="level1qw16">I used to be late for the appointed time</string>
+    <string name="level1qw17"> I like to gossip sometimes</string>
+    <string name="level1qw18"> Among those I know, there are faces that I really dont like</string>
+    <string name="level1qw19">I dont remember being particularly saddened by the failures of a man I cant stand</string>
+    <string name="level1qw20">I happened to be late</string>
+    <string name="level1qw21"> I tend to brag sometimes</string>
+    <string name="level1qw22"> Sometimes there is no desire to do anything</string>
+    <string name="level1qw23"> I sometimes have thoughts that I am ashamed to tell others about</string>
+    <string name="level1qw24"> Sometimes I turned out to be the reason for the bad mood of someone around me</string>
+    <string name="level1qw25"> sometimes I told lies</string>
+    <string name="level1qw26"> All my habits are positive</string>
+    <string name="level1qw27"> If I promised something, I always keep my word no matter what</string>
+    <string name="level1qw28"> Sometimes I brag</string>
+    <string name="level1qw29"> As a teenager, I showed interest in taboo topics</string>
+    <string name="level1qw30"> I sometimes put off until tomorrow what needs to be done today</string>
+    <string name="level1qw31">I have thoughts that I should be ashamed of</string>
+    <string name="level1qw32"> I dont love all my friends</string>
+    <string name="level1qw33"> I can say bad things about someone</string>
+    <string name="level1qw34"> I can say bad things about someone</string>
     <string name="hello_world">Hello Square World!</string>
-    <string name="level1_oneAnswer">Очень низкий показатель по шкале "Честность".
-        Свидетельствует о ярко выраженной склонности ко лжи, приукрашиванию себя.
-        Также может свидетельствовать о низких показателях социального интеллекта. Если данный
-        опросник применялся в составе батареи методик, то результаты по личностным опросникам следует признать недостоверными.</string>
-    <string name="level1_twoAnswer">Низкий показатель по шкале "Честность".
-        Свидетельствует о значительной склонности ко лжи. Любит приукрашивать себя, своё поведение.
-        Если опросник применялся в составе батареи методик, то результаты по личностным опросникам
-        не обязательнос следует признавать недостоверными. Однако следует отнестить к их результатам вполне критично.</string>
-    <string name="level1_threeAnswer">Склонность ко лжи не выявлена.
-        Может быть, изредка склонен приукрашивать себя, своё поведение, но в пределах нормы.</string>
-    <string name="level1_fourAnswer">Высокий результат по шкале "Честность".
-        Такой высокий результат может быть связан не только с высокой личностной честностью,но и следствием других причин: преднамеренного
-        искажения ответов, очень неверной самооценки. Следует осторожно отнестись к данному результату.</string>
+    <string name="level1_oneAnswer">Very low score on the Honesty scale.
+        It indicates a pronounced tendency to lie, to embellish oneself.
+        It can also indicate low levels of social intelligence. If given
+        the questionnaire was used as part of a battery of methods,
+        then the results on personality questionnaires should be recognized as unreliable.</string>
+    <string name="level1_twoAnswer">Low score on the Honesty scale.
+        Indicates a significant tendency to lie. He likes to embellish himself, his behavior.
+        If the questionnaire was used as part of a battery of methods, then the results on personality questionnaires
+        need not be considered unreliable. However, their results should be considered quite critically..</string>
+    <string name="level1_threeAnswer">There was no tendency to lie.
+        May be occasionally inclined to embellish himself, his behavior, but within the normal range.</string>
+    <string name="level1_fourAnswer">High score on the Honesty scale.
+        Such a high result can be associated not only with high personal honesty, but also a consequence of other reasons: deliberate
+        distortion of answers, very wrong self-assessment. This result should be treated with caution.</string>
     <string name="title_activity_level_one_spisok">level_one_spisok</string>
 
-    <string name="observationqw_dialog"> Есть люди, которые всегда начеку - ничто их не может удивить, ошеломить, поставить в тупик. Им противоположность -
-        люди рассеянные и невнимательные, теряющиеся в простейших ситуациях</string>
-    <string name="observationqw1"> Вы заходите в какую-то организацию</string>
-    <string name="observationqw122222"> Вы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организациюВы заходите в какую-то организацию</string>
-    <string name="observationqw2"> Встречаясь с человеком, вы</string>
-    <string name="observationqw3"> Что вам запоминается из увиденного пейзажа</string>
+    <string name="observationqw_dialog"> There are people who are always on the alert - nothing can surprise them, stun them, confuse them. Their opposite is
+        scattered and inattentive people, lost in meetings</string>
+    <string name="observationqw1">Are you joining an organization</string>
+    <string name="observationqw2"> When you meet a person</string>
+    <string name="observationqw3"> What do you remember from the landscape you see</string>
     <string name="observationqw4"> Когда вы утром просыпаетесь, то </string>
-    <string name="observationqw5"> Когда вы садитесь в общественный транспорт, то</string>
-    <string name="observationqw6"> На улице вы</string>
-    <string name="observationqw7"> Когда вы смотрите на витрину, то</string>
-    <string name="observationqw8"> Если дома вам нужно что-то найти, то вы</string>
-    <string name="observationqw9">  Рассматривая старый групповой снимок ваших близких, друзей, вы</string>
-    <string name="observationqw10"> Представьте, что вам предложили сыграть в азартную игру, которую вы не знаете. Вы:</string>
-    <string name="observationqw11">  Вы кого-то ждете в парке и:</string>
-    <string name="observationqw12"> В звездную ночь вы:</string>
-    <string name="observationqw13"> Читая книгу, вы:</string>
-    <string name="observationqw14"> О своих соседях вы помните:</string>
-    <string name="observationqw15"> Оказавшись перед сервированным столом:</string>
+    <string name="observationqw5"> When you wake up in the morning</string>
+    <string name="observationqw6">On the street you</string>
 
+    <string name="observationqw7"> When you look at the window</string>
+    <string name="observationqw8"> If you need to find something at home, then inы</string>
+    <string name="observationqw9">  Looking at an old group photo of your loved ones, friends, you</string>
+    <string name="observationqw10"> Imagine that you are offered to play a game of chance that you do not know. You</string>
+    <string name="observationqw11"> you are waiting for someone in the park and:</string>
+    <string name="observationqw12"> In the starry night you:</string>
+    <string name="observationqw13"> When you read a book, you:</string>
+    <string name="observationqw14"> Do you remember your neighbors:</string>
+    <string name="observationqw15"> Standing in front of the served table:</string>
 
-    <string name="observationAnwer1_10"> обращаете внимание на точное расположение предметов</string>
-    <string name="observationAnwer2_10"> незаметно оглядываете его с ног до головы</string>
-    <string name="observationAnwer3_10"> цвета</string>
-    <string name="observationAnwer4_10"> сразу же вспоминаете, что вам предстоит делать</string>
-    <string name="observationAnwer5_10"> обмениваетесь словом-другим с теми, кто к вам ближе всего</string>
-    <string name="observationAnwer6_10">  наблюдаете за прохожими </string>
-    <string name="observationAnwer7_10">  несколько раз внимательно рассматриваете каждый предмет </string>
-    <string name="observationAnwer8_10">  сосредоточиваетесь на том месте, где, как вы предполагаете, могли оставить этот предмет </string>
-    <string name="observationAnwer9_10">  вы пытаетесь узнать тех, кто снят </string>
-    <string name="observationAnwer10_10">  пытаетесь научиться в нее играть и выигрывать </string>
-    <string name="observationAnwer11_10">  внимательно наблюдаете за теми, кто рядом с вами </string>
-    <string name="observationAnwer12_10">  пытаетесь разглядеть созвездия </string>
-    <string name="observationAnwer13_10">  помечаете карандашом то место, до которого дошли </string>
-    <string name="observationAnwer14_10">  их имя и отчество </string>
-    <string name="observationAnwer15_10">  проверяете, все ли на месте </string>
+    <string name="observationAnwer1_10"> Pay attention to the exact location of objects</string>
+    <string name="observationAnwer2_10"> Imperceptibly look him up and down</string>
+    <string name="observationAnwer3_10"> Colors</string>
+    <string name="observationAnwer4_10"> Immediately remember what you have to do</string>
+    <string name="observationAnwer5_10"> Exchange a word or two with those who are closest to you</string>
+    <string name="observationAnwer6_10"> Watching passers-by </string>
+    <string name="observationAnwer7_10">  Several times carefully consider each item </string>
+    <string name="observationAnwer8_10">  Focus on the place where you think you might have left the item </string>
+    <string name="observationAnwer9_10">  You are trying to recognize those who are filmed </string>
+    <string name="observationAnwer10_10"> Trying to learn how to play it and win </string>
+    <string name="observationAnwer11_10">  Pay close attention to those around you </string>
+    <string name="observationAnwer12_10">  Trying to see the constellations </string>
+    <string name="observationAnwer13_10"> Mark with a pencil the place you have reached </string>
+    <string name="observationAnwer14_10"> Their first and last name </string>
+    <string name="observationAnwer15_10"> Check if everything is in place </string>
 
+    <string name="observationAnwer1_5"> Look at whats hanging on the walls</string>
+    <string name="observationAnwer2_5">Just look him in the face</string>
+    <string name="observationAnwer3_5"> Sky</string>
+    <string name="observationAnwer4_5">  Think about what happened yesterday</string>
+    <string name="observationAnwer5_5"> Look at those who are standing next to you</string>
+    <string name="observationAnwer6_5">  Watching traffic </string>
+    <string name="observationAnwer7_5"> Look at what you dont need at the moment </string>
+    <string name="observationAnwer8_5"> Looking everywhere </string>
+    <string name="observationAnwer9_5">  You are trying to recognize those who are filmed </string>
+    <string name="observationAnwer10_5"> Abandon this venture after a while </string>
+    <string name="observationAnwer11_5">  Reading a newspaper </string>
+    <string name="observationAnwer12_5">  Just look at the sky </string>
+    <string name="observationAnwer13_5"> Leave a bookmark </string>
+    <string name="observationAnwer14_5"> Neither one nor the otherе </string>
+    <string name="observationAnwer15_5"> See if all the chairs are right </string>
 
-    <string name="observationAnwer1_5"> разглядываете, что висит на стенах</string>
-    <string name="observationAnwer2_5"> смотрите ему только в лицо</string>
-    <string name="observationAnwer3_5"> небо</string>
-    <string name="observationAnwer4_5">  обдумываете, что произошло вчера</string>
-    <string name="observationAnwer5_5"> разглядываете тех, кто стоит рядом</string>
-    <string name="observationAnwer6_5">  наблюдаете за транспортом </string>
-    <string name="observationAnwer7_5">  смотрите и на то, что вам в данный момент не нужно </string>
-    <string name="observationAnwer8_5">  ищете везде </string>
-    <string name="observationAnwer9_5">  вы пытаетесь узнать тех, кто снят </string>
-    <string name="observationAnwer10_5">  отказываетесь от этой затеи через какое-то время </string>
-    <string name="observationAnwer11_5">  читаете газету </string>
-    <string name="observationAnwer12_5">  просто смотрите на небо </string>
-    <string name="observationAnwer13_5">  оставляете закладку </string>
-    <string name="observationAnwer14_5">  ни то, ни другое </string>
-    <string name="observationAnwer15_5">  смотрите, все ли стулья стоят как нужно </string>
+    <string name="observationAnwer1_3"> Pay attention to the arrangement of tables and chairs </string>
+    <string name="observationAnwer2_3"> Pay attention only to certain parts of the face</string>
+    <string name="observationAnwer3_3"> The feeling of joy or sadness that gripped you then</string>
+    <string name="observationAnwer4_3"> Remember what you dreamed</string>
+    <string name="observationAnwer5_3"> Go ahead without looking at anyone</string>
+    <string name="observationAnwer6_3"> Look at the front of the houses </string>
+    <string name="observationAnwer7_3"> Only interested in what might be useful to you </string>
+    <string name="observationAnwer8_3"> Ask others to help you </string>
+    <string name="observationAnwer9_3"> You become funny </string>
+    <string name="observationAnwer10_3"> Dont play at all </string>
+    <string name="observationAnwer11_3"> Dreaming about something (thinking) </string>
+    <string name="observationAnwer12_3">  Dont look at all </string>
+    <string name="observationAnwer13_3">  Trust your memory </string>
+    <string name="observationAnwer14_3">  Their appearance </string>
+    <string name="observationAnwer15_3">  Admire his sophistication </string>
 
-    <string name="observationAnwer1_3"> обращаете внимание на расположение столов и стульев </string>
-    <string name="observationAnwer2_3"> обращаете внимание лишь на отдельные части лица (глаза, нос...)</string>
-    <string name="observationAnwer3_3"> чувство радости или грусти, охватившее вас тогда</string>
-    <string name="observationAnwer4_3">  вспоминаете, что вам снилось</string>
-    <string name="observationAnwer5_3"> проходите вперед, ни на кого не глядя</string>
-    <string name="observationAnwer6_3">  смотрите на фасад домов </string>
-    <string name="observationAnwer7_3">  интересуетесь лишь тем, что может вам пригодиться </string>
-    <string name="observationAnwer8_3">  просите других помочь вам </string>
-    <string name="observationAnwer9_3">  вам становится смешно </string>
-    <string name="observationAnwer10_3">  вообще не играете </string>
-    <string name="observationAnwer11_3">   о чем-то мечтаете (думаете) </string>
-    <string name="observationAnwer12_3">  вообще не смотрите </string>
-    <string name="observationAnwer13_3">  доверяете своей памяти </string>
-    <string name="observationAnwer14_3">  их внешность </string>
-    <string name="observationAnwer15_3">  восхищаетесь его изысканностью </string>
+    <string name="observation_oneAnswer">Undoubtedly, you are extremely observant.
+        At the same time, you are able to analyze yourself and your actions. You are able to appreciate another person with remarkable accuracy.</string>
+    <string name="observation_twoAnswer">You have developed enough observation
+        but still, when evaluating, sometimes prejudice fails you.</string>
+    <string name="observation_threeAnswer"> You are not too interested in what is hidden behind appearance, manner of behavior
+        others. Although in communication you do not have any serious psychological problems.
+Less than 45 points. You are absolutely not interested in the innermost thoughts of those who are close to you. You are too busy, you have no time to analyze even your own actions,
+        let alone those of others. You will not be offended if you are considered an egoist?</string>
 
-
-    <string name="observation_oneAnswer">Бесспорно, вы чрезвычайно наблюдательны.
-        Вместе с тем вы способны анализировать и самого себя, свои поступки. Вы в состоянии с замечательной точностью оценить другого человека.</string>
-    <string name="observation_twoAnswer">У вас достаточно развита наблюдательность,
-        но все же при оценке вас иногда подводит предубежденность.</string>
-    <string name="observation_threeAnswer"> Вас не слишком интересует то, что скрывается за внешностью, манерой пове
-        дения других. Хотя в общении у вас не возникает сколько-нибудь серьезных психологических проблем.
-Менее 45 очков. Вас абсолютно не интересуют сокровенные мысли тех, кто рядом с вами. Вы слишком заняты, вам некогда анализировать даже собственные поступки, не то что чужие. Вы не обидитесь, если вас будут считать эгоистом?</string>
-
-    <string name="kindness">  Тест Добрый ли вы? </string>
-    <string name="kindness_dialog">  Добры ли Вы, и внимательны ли к окружающим? Способны ли Вы отдать последнюю рубашку тому, кому она нужнее? На эти вопросы вам поможет ответить наш тест </string>
-    <string name="kindness1"> У вас появились деньги. Могли бы вы истратить все, что у вас есть, на подарки друзьям?</string>
-    <string name="kindness2"> Товарищ рассказывает вам о своих невзгодах. Дадите ли вы ему понять, что вас это мало интересует, даже если это так?</string>
-    <string name="kindness3"> Если ваш партнер плохо играет в шахматы или другую игру, будете ли вы иногда ему поддаваться, чтобы сделать приятное?</string>
-    <string name="kindness4"> Часто ли вы говорите приятное людям, просто чтобы поднять им настроение? </string>
-    <string name="kindness5"> Любите ли вы злые шутки</string>
+    <string name="kindness">  Quiz Are you kind? </string>
+    <string name="kindness_dialog">  Are you kind and considerate to others?
+        Are you able to give the last shirt to the one
+        who needs it more? Our quiz will help you answer these questions. </string>
+    <string name="kindness1"> You have money. Could you spend it all
+        what do you have for gifts to friends?</string>
+    <string name="kindness2"> A friend tells you about his troubles.
+        Will you let him know that you are not interested in this, even if it is?</string>
+    <string name="kindness3"> If your partner is bad at chess or another game, will you sometimes give in to him to please him?</string>
+    <string name="kindness4">How often do you say nice things to people just to cheer them up? </string>
+    <string name="kindness5"> Do you like bad jokes?</string>
     <string name="kindness6"> Вы злопамятны?</string>
-    <string name="kindness7"> Можете ли вы терпеливо выслушать даже то, что вас совершенно не интересует?</string>
-    <string name="kindness8">  Умеете ли вы на практике применять свои способности?</string>
-    <string name="kindness9">  Бросаете ли игру, когда начинаете проигрывать?</string>
-    <string name="kindness10">  Если вы уверены в своей правоте, отказываетесь ли выслушать аргументы оппонента?</string>
-    <string name="kindness11">  Вы охотно выполняете просьбы?</string>
-    <string name="kindness12">  Станете ли вы подтрунивать над кем-то, чтобы развеселить окружающих?</string>
-    <string name="kindness_oneAnswer">Вы любезны, нравитесь окружающим, умеете общаться
-        с людьми. У вас, наверное, много друзей. Одно предостережение:
-        никогда не пытайтесь иметь хорошие отношения со всеми - всем не угодишь, да и на пользу это вам не пойдет.</string>
-    <string name="kindness_twoAnswer">Ну что же, ваша доброта - вопрос случая.
-        Добры вы далеко не со всеми. Для одних вы можете пойти на все, но общение с вами более чем неприятно для тех, кто вам не нравится. Это не так уж плохо.
-        Но, наверное, надо стараться быть ровным со всеми, чтобы люди не обижались.</string>
-    <string name="kindness_threeAnswer">Общение с вами, надо признаться, порой бывает
-        просто мукой даже для самых близких вам людей.
-        Будьте доброжелательнее, и у вас будет больше друзей. Ведь дружба требует доброго отношения...</string>
+    <string name="kindness7"> Can you patiently listen even to something that does not interest you at all?</string>
+    <string name="kindness8">  Are you able to put your skills into practice?</string>
+    <string name="kindness9">  Do you quit the game when you start losing?</string>
+    <string name="kindness10">  If you are sure that you are right, do you refuse to listen to the arguments of your opponent?</string>
+    <string name="kindness11"> Are you willing to comply with requests?</string>
+    <string name="kindness12">  Will you tease someone to make others laugh?</string>
+    <string name="kindness_oneAnswer">You are kind, like others, know how to communicate
+        with people. You probably have many friends. One caveat:
+        never try to have a good relationship with everyone - you can’t please everyone, and it won’t do you any good.</string>
+    <string name="kindness_twoAnswer">Well, your kindness is a matter of chance.
+        You are not kind to everyone. For some, you can do anything, but communication with you is more than unpleasant for those who do not like you. Its not so bad.
+        But, probably, we should try to be equal with everyone so that people do not get offended.</string>
+    <string name="kindness_threeAnswer">Communication with you, I must admit, sometimes it happens
+        just flour even for the people closest to you.
+        Be kinder and you will have more friends.
+        After all, friendship requires kindness...</string>
 
-    <string name="Entrepreneur1_1"> Безынициативный, ждет указаний</string>
-    <string name="Entrepreneur1_2"> Зачастую с ним трудно работать</string>
-    <string name="Entrepreneur1_3"> Ведомый</string>
-    <string name="Entrepreneur1_4"> Уклоняется от любых поручений</string>
-    <string name="Entrepreneur1_5"> Плохой организатор</string>
-    <string name="Entrepreneur1_6"> Сомневающийся и боязливый</string>
-    <string name="Entrepreneur1_7"> Почти никакого упорства</string>
+    <string name="Entrepreneur1_1"> Reluctant, waiting for instructions</string>
+    <string name="Entrepreneur1_2"> Often difficult to work with</string>
+    <string name="Entrepreneur1_3"> Slave</string>
+    <string name="Entrepreneur1_4"> Avoids any orders</string>
+    <string name="Entrepreneur1_5"> Bad organizer</string>
+    <string name="Entrepreneur1_6"> Doubtful and fearful</string>
+    <string name="Entrepreneur1_7"> Almost no perseverance</string>
 
+    <string name="Entrepreneur2_1"> Performs the required amount of work without guidance</string>
+    <string name="Entrepreneur2_2"> Sometimes difficult to work with</string>
+    <string name="Entrepreneur2_3"> Host</string>
+    <string name="Entrepreneur2_4"> Reluctant to accept orders</string>
+    <string name="Entrepreneur2_5"> Average organizational skills</string>
+    <string name="Entrepreneur2_6"> Fast but makes mistakes</string>
+    <string name="Entrepreneur2_7"> Average Tenacity and Determination</string>
 
-    <string name="Entrepreneur2_1"> Выполняет необходимый объем работ без указаний руководства</string>
-    <string name="Entrepreneur2_2"> Иногда с ним трудно работать</string>
-    <string name="Entrepreneur2_3"> Ведущий</string>
-    <string name="Entrepreneur2_4"> Неохотно соглашается с поручениями</string>
-    <string name="Entrepreneur2_5"> Средние организаторские способности</string>
-    <string name="Entrepreneur2_6"> Быстрый, но часто делает ошибки</string>
-    <string name="Entrepreneur2_7"> Средний уровень упорства и решительности</string>
+    <string name="Entrepreneur3_1"> Resourceful, savvy on assignment</string>
+    <string name="Entrepreneur3_2"> Pleasant, polite</string>
+    <string name="Entrepreneur3_3"> Skilled in giving effective orders</string>
+    <string name="Entrepreneur3_4"> Agrees with orders, although not without protest</string>
+    <string name="Entrepreneur3_5"> Capable organizer</string>
+    <string name="Entrepreneur3_6"> Thorough and careful, prudent</string>
+    <string name="Entrepreneur3_7"> Making a constant effort?</string>
 
+    <string name="Entrepreneur4_1"> Looking for extra challenges, very sincere</string>
+    <string name="Entrepreneur4_2"> Positive start, friendly attitude</string>
+    <string name="Entrepreneur4_3"> Strong, confident and trustworthy</string>
+    <string name="Entrepreneur4_4"> Show responsibility when running errands</string>
+    <string name="Entrepreneur4_5"> Very capable at persuading people and arranging facts in a logical order</string>
+    <string name="Entrepreneur4_6"> Fast and Accurate</string>
+    <string name="Entrepreneur4_7"> Purposeful, not easily discouraged</string>
 
-    <string name="Entrepreneur3_1"> Находчив, смекалист при выполнении задания</string>
-    <string name="Entrepreneur3_2"> Приятный в обхождении, вежливый</string>
-    <string name="Entrepreneur3_3"> Умело отдает эффективные приказы</string>
-    <string name="Entrepreneur3_4"> Соглашается с поручениями, хотя и не без протеста</string>
-    <string name="Entrepreneur3_5"> Способный организатор</string>
-    <string name="Entrepreneur3_6"> Основательный и осторожный, осмотрительный</string>
-    <string name="Entrepreneur3_7"> Предпринимает постоянные усилия?</string>
+    <string name="EntrepreneurAnswer25_28"> Great Chance</string>
+    <string name="EntrepreneurAnswer21_24"> Very Good Chance</string>
+    <string name="EntrepreneurAnswer17_20"> Good Chance</string>
+    <string name="EntrepreneurAnswer13_16"> Average Chance</string>
+    <string name="EntrepreneurAnswer12"> Very low chance of becoming an entrepreneur</string>
 
+    <string name="Entrepreneur1_Qw"> Initiative</string>
+    <string name="Entrepreneur2_Qw"> Relationship to others</string>
+    <string name="Entrepreneur3_Qw"> Leadership</string>
+    <string name="Entrepreneur4_Qw"> Responsibility</string>
+    <string name="Entrepreneur5_Qw"> Organizational Skills</string>
+    <string name="Entrepreneur6_Qw"> Decisiveness</string>
+    <string name="Entrepreneur7_Qw"> Tenacity</string>
+    <string name="Entrepreneur_dialog"> This test is widely used in America to diagnose the entrepreneurial spirit.\n\n
+        If a person shows some weaknesses, but retains a strong desire to own his own business and be an entrepreneur,
+        then, according to the canons of entrepreneurship, this desire is quite feasible. But for this you need to select a team and your
+        partners in such a way that they compensate for your weaknesses.\n For example, you do not have very high marks in "organizational
+        ability" and "relationship with others". So, your team should have someone with the appropriate strengths. </string>
 
-    <string name="Entrepreneur4_1"> Ищете дополнительные задачи, очень искренне</string>
-    <string name="Entrepreneur4_2"> Позитивное начало, дружелюбное отношение к людям</string>
-    <string name="Entrepreneur4_3"> Сильны, внушаете уверенность и доверие</string>
-    <string name="Entrepreneur4_4"> Проявляете ответственность при выполнении поручений</string>
-    <string name="Entrepreneur4_5"> Очень способны в убеждении людей и выстраивании фактов в логическом порядке</string>
-    <string name="Entrepreneur4_6"> Быстры и точны</string>
-    <string name="Entrepreneur4_7"> Целеустремленный, его нелегко обескуражить</string>
+    <string name="test_temperament">With this test, you can easily determine whether
+        which type of temperament dominates you. \n\n
+        To each person from
+        birth is one of the four
+        temperament types that change little over the course of life.\n\n
 
-    <string name="EntrepreneurAnswer25_28"> Отличный шанс</string>
-    <string name="EntrepreneurAnswer21_24"> Очень хороший шанс</string>
-    <string name="EntrepreneurAnswer17_20"> Хороший шанс</string>
-    <string name="EntrepreneurAnswer13_16"> Средний шанс</string>
-    <string name="EntrepreneurAnswer12"> Очень низкий шанс стать предпринимателем</string>
+Temperament determines the strength and speed of our reactions to life events, the degree of emotionality
+        personality and the degree of its nervous excitability. You cant change your temperament
+        but you can learn to use not only its strong, positive, but also weak, negative, sides.\n\n
 
-    <string name="Entrepreneur1_Qw"> Инициатива</string>
-    <string name="Entrepreneur2_Qw"> Отношение к другим</string>
-    <string name="Entrepreneur3_Qw"> Лидерство</string>
-    <string name="Entrepreneur4_Qw"> Ответственность</string>
-    <string name="Entrepreneur5_Qw"> Организаторские способности</string>
-    <string name="Entrepreneur6_Qw"> Решительность</string>
-    <string name="Entrepreneur7_Qw"> Упорство</string>
-    <string name="Entrepreneur_dialog"> Данный тест широко используется в Америке для диагностики предпринимательской жилки. Если у человека обнаружатся некоторые слабости, но сохраняется сильное желание иметь свое дело и быть предпринимателем, то, по канонам предпринимательства, это желание вполне осуществимо. Но для этого необходимо подбирать команду и своих партнеров таким образом, чтобы они компенсировали ваши слабости. Например, у вас не очень высокие оценки по «организаторским способностям» и «отношению к другим». Значит, в вашей команде должен быть кто-то с соответствующими сильными качествами. </string>
+There are no people whose temperament can be 100% attributed to any particular type.\n
 
+As a rule, our temperament is a mixture of the characteristics of two,
+        and even three temperaments. Throughout life, the balance of components
+        our temperament can change under the influence of events, experiences, various trials and errors.
 
-    <string name="test_temperament">Каждому человеку от
-        рождения присущ один из четырех
-        типов темперамента, который мало изменяется с течением жизни.\n\n
+</string>
+    <string name="Test_honesty_dialog"> The purpose of this questionnaire is to identify the level of honesty, openness of the subject.
+        Designed for professional psychological diagnostics. \n\n
+        The Honesty Questionnaire goes well with
+        those questionnaires that do not include a scale of lies: with low scores on the honesty scale, the results of diagnostics for other
+        methods included in the battery of methods can be recognized as unreliable.\n\n
+        The Honesty questionnaire can also be used as an independent technique designed to identify the level of honesty,
+        the subjects openness. For example, for the purpose of selection</string>
 
-Темперамент определяет силу и скорость наших реакций на события жизни, степень эмоциональности
-        личности и степень ее нервной возбудимости. Переделать свой темперамент нельзя,
-        но можно научиться использовать не только его сильные, положительные, но и слабые, отрицательные, стороны.
+    <string name="Halerik1_Qw"> Restless, fussy</string>
+    <string name="Halerik2_Qw"> Unrestrained, quick-tempered;</string>
+    <string name="Halerik3_Qw"> Impatient</string>
+    <string name="Halerik4_Qw"> Sharp and straightforward in dealing with people;</string>
+    <string name="Halerik5_Qw"> Determined and proactive</string>
+    <string name="Halerik6_Qw"> Stubborn</string>
+    <string name="Halerik7_Qw"> Resourceful in Argument</string>
+    <string name="Halerik8_Qw"> Jerky</string>
+    <string name="Halerik9_Qw"> Risky</string>
+    <string name="Halerik10_Qw"> Forgiving and not touchy</string>
+    <string name="Halerik11_Qw"> Speak quickly, passionately;</string>
+    <string name="Halerik12_Qw"> Unbalanced and prone to vice</string>
+    <string name="Halerik13_Qw"> Aggressive</string>
+    <string name="Halerik14_Qw">Intolerant of other peoples shortcomings</string>
+    <string name="Halerik15_Qw"> Have expressive facial expressions</string>
+    <string name="Halerik16_Qw"> Make decisions quickly</string>
+    <string name="Halerik17_Qw"> Love everything new</string>
+    <string name="Halerik18_Qw"> You move abruptly, impetuously</string>
+    <string name="Halerik19_Qw"> Pursue your goal</string>
+    <string name="Halerik20_Qw"> Prone to mood swings</string>
 
-Людей, темперамент которых можно на 100 % отнести к какому-то конкретному типу, нет.
+    <string name="Sangvinik1_Qw"> Cheerful and cheerful;</string>
+    <string name="Sangvinik2_Qw"> Energetic and businesslike</string>
+    <string name="Sangvinik3_Qw"> Dont finish what you started</string>
+    <string name="Sangvinik4_Qw"> Overestimate yourself</string>
+    <string name="Sangvinik5_Qw"> Quickly grasp everything new</string>
+    <string name="Sangvinik6_Qw"> Have no sustainable interests </string>
+    <string name="Sangvinik7_Qw"> Easily experience failures and troubles </string>
+    <string name="Sangvinik8_Qw"> Easily adapt to a new environment, do not feel constrained when communicating with unfamiliar people</string>
+    <string name="Sangvinik9_Qw"> Take on any new business with passion</string>
+    <string name="Sangvinik10_Qw"> Quickly cool down if the case ceases to interest you</string>
+    <string name="Sangvinik11_Qw"> Instantly jump into a new job and quickly switch to another</string>
+    <string name="Sangvinik12_Qw"> Monotonous, everyday, hard work annoys you</string>
+    <string name="Sangvinik13_Qw"> Sociable and responsive</string>
+    <string name="Sangvinik14_Qw"> Hardy and efficient</string>
+    <string name="Sangvinik15_Qw"> Have loud, fast speech accompanied by lively gestures</string>
+    <string name="Sangvinik16_Qw"> Keep your composure in the unexpected </string>
+    <string name="Sangvinik17_Qw"> Always have a cheerful mood</string>
+    <string name="Sangvinik18_Qw"> Quickly fall asleep and wake up</string>
+    <string name="Sangvinik19_Qw"> Uncomposed, hasty in decisions</string>
+    <string name="Sangvinik20_Qw"> Prone to distraction</string>
 
-Как правило, наш темперамент – это смешение характеристик двух,
-        а то и трех темпераментов. В течение жизни баланс составляющих
-        нашего темперамента может изменяться под влиянием событий, полученного опыта, разнообразных проб и ошибок.
+    <string name="Flegmatik1_Qw"> Calm and cool</string>
+    <string name="Flegmatik2_Qw"> Consistent and thorough in business</string>
+    <string name="Flegmatik3_Qw"> Careful and reasonable;</string>
+    <string name="Flegmatik4_Qw"> Know how to wait</string>
+    <string name="Flegmatik5_Qw"> Are silent, dont like idle talk</string>
+    <string name="Flegmatik6_Qw"> Speak calmly, with stops, without sharply expressed emotions and facial expressions </string>
+    <string name="Flegmatik7_Qw"> Restrained and patient</string>
+    <string name="Flegmatik8_Qw"> Follow through</string>
+    <string name="Flegmatik9_Qw"> Dont waste your energy</string>
+    <string name="Flegmatik10_Qw"> Stick to a clear routine in life, systems at work</string>
+    <string name="Flegmatik11_Qw"> Easily restrain your impulses</string>
+    <string name="Flegmatik12_Qw"> Distrustful of predictions</string>
+    <string name="Flegmatik13_Qw"> Unforgiving, indulgent to taunts in their address</string>
+    <string name="Flegmatik14_Qw"> Have permanent relationships and interests</string>
+    <string name="Flegmatik15_Qw"> Slowly getting to work and switching from one thing to another</string>
+    <string name="Flegmatik16_Qw"> Equal in relations with everyone</string>
+    <string name="Flegmatik17_Qw"> Are punctual, love neatness and order in everything </string>
+    <string name="Flegmatik18_Qw"> Have difficulty adjusting to new surroundings</string>
+    <string name="Flegmatik19_Qw"> Inert, sluggish </string>
+    <string name="Flegmatik20_Qw"> Have the stamina</string>
 
-При помощи этого теста вы сможете достаточно просто определить,
-        какой из типов темперамента у вас доминирует.</string>
-    <string name="Test_honesty_dialog"> Цель данного опросника - выявить уровень честности, открытости испытуемого. Предназначен для профессиональной психологической диагностики. Опросник "Честность" хорошо сочетается с теми опросниками, в которых не заложена шкала лжи: при низких показателях по шкале честности результаты диагностики по другим методикам, входящим в батарею методик, можно признавать недостоверными.
-Опросник "Честность" может применяться и как самостоятельная методика, предназначенная для выявления уровня честности, открытости испытуемого. Например, в целях профотбора</string>
-
-    <string name="Halerik1_Qw"> Неусидчивы, суетливы</string>
-    <string name="Halerik2_Qw"> Невыдержанны, вспыльчивы;</string>
-    <string name="Halerik3_Qw"> Нетерпеливы</string>
-    <string name="Halerik4_Qw"> Резки и прямолинейны в отношениях с людьми;</string>
-    <string name="Halerik5_Qw"> Решительны и инициативны</string>
-    <string name="Halerik6_Qw"> Упрямы</string>
-    <string name="Halerik7_Qw"> Находчивы в споре</string>
-    <string name="Halerik8_Qw"> Работаете рывками</string>
-    <string name="Halerik9_Qw"> Склонны к риску</string>
-    <string name="Halerik10_Qw"> Незлопамятны и необидчивы</string>
-    <string name="Halerik11_Qw"> Обладаете быстрой, страстной речью;</string>
-    <string name="Halerik12_Qw"> Неуравновешенны и склонны к пороку</string>
-    <string name="Halerik13_Qw"> Агрессивны</string>
-    <string name="Halerik14_Qw"> Нетерпимы к чужим недостаткам</string>
-    <string name="Halerik15_Qw"> Имеете выразительную мимику</string>
-    <string name="Halerik16_Qw"> Быстро принимаете решения</string>
-    <string name="Halerik17_Qw"> Любите все новое</string>
-    <string name="Halerik18_Qw"> Двигаетесь резко, порывисто</string>
-    <string name="Halerik19_Qw"> Настойчиво достигаете своей цели</string>
-    <string name="Halerik20_Qw"> Склонны к резким сменам настроения</string>
-
-    <string name="Sangvinik1_Qw"> Веселы и жизнерадостны;</string>
-    <string name="Sangvinik2_Qw"> Энергичны и деловиты</string>
-    <string name="Sangvinik3_Qw"> Не доводите начатое дело до конца</string>
-    <string name="Sangvinik4_Qw"> Переоцениваете себя</string>
-    <string name="Sangvinik5_Qw"> быстро схватываете все новое</string>
-    <string name="Sangvinik6_Qw"> не имеете устойчивых интересов </string>
-    <string name="Sangvinik7_Qw"> легко переживаете неудачи и неприятности </string>
-    <string name="Sangvinik8_Qw"> легко приспосабливаетесь к новому окружению, не чувствуете скованности, общаясь с малознакомыми людьми</string>
-    <string name="Sangvinik9_Qw"> с увлечением беретесь за любое новое дело</string>
-    <string name="Sangvinik10_Qw"> быстро остываете, если дело перестает вас интересовать</string>
-    <string name="Sangvinik11_Qw"> моментально включаетесь в новую работу и быстро переключаетесь на другую</string>
-    <string name="Sangvinik12_Qw"> вас раздражает однообразная, будничная, кропотливая работа</string>
-    <string name="Sangvinik13_Qw"> общительны и отзывчивы</string>
-    <string name="Sangvinik14_Qw"> выносливы и работоспособны</string>
-    <string name="Sangvinik15_Qw"> обладаете громкой, быстрой речью, сопровождаемой живыми жестами</string>
-    <string name="Sangvinik16_Qw"> сохраняете самообладание в неожиданной обстановке </string>
-    <string name="Sangvinik17_Qw"> обладаете всегда бодрым настроением</string>
-    <string name="Sangvinik18_Qw"> быстро засыпаете и пробуждаетесь</string>
-    <string name="Sangvinik19_Qw"> несобранны, поспешны в решениях</string>
-    <string name="Sangvinik20_Qw"> склонны отвлекаться</string>
-
-    <string name="Flegmatik1_Qw"> спокойны и хладнокровны</string>
-    <string name="Flegmatik2_Qw"> последовательны и обстоятельны в делах</string>
-    <string name="Flegmatik3_Qw"> осторожны и рассудительны;</string>
-    <string name="Flegmatik4_Qw"> умеете ждать</string>
-    <string name="Flegmatik5_Qw"> молчаливы, не любите пустословить</string>
-    <string name="Flegmatik6_Qw"> говорите спокойно, с остановками, без резко выраженных эмоций и мимики </string>
-    <string name="Flegmatik7_Qw"> сдержанны и терпеливы</string>
-    <string name="Flegmatik8_Qw"> доводите начатое дело до конца</string>
-    <string name="Flegmatik9_Qw"> не тратите силы попусту</string>
-    <string name="Flegmatik10_Qw"> придерживаетесь четкого распорядка в жизни, системы в работе</string>
-    <string name="Flegmatik11_Qw"> легко сдерживаете свои порывы</string>
-    <string name="Flegmatik12_Qw"> недоверчивы к предсказаниям</string>
-    <string name="Flegmatik13_Qw"> незлопамятны, снисходительны к колкостям в свой адрес</string>
-    <string name="Flegmatik14_Qw">  имеете постоянные отношения и интересы</string>
-    <string name="Flegmatik15_Qw">  медленно включаетесь в работу и переключаетесь с одного дела на другое</string>
-    <string name="Flegmatik16_Qw"> ровны в отношениях со всеми</string>
-    <string name="Flegmatik17_Qw"> пунктуальны, любите аккуратность и порядок во всем </string>
-    <string name="Flegmatik18_Qw"> с трудом приспосабливаетесь к новой обстановке </string>
-    <string name="Flegmatik19_Qw"> инертны, вялы </string>
-    <string name="Flegmatik20_Qw"> обладаете выдержкой</string>
-
-
-    <string name="Melanholik1_Qw">  застенчивы и скромны</string>
-    <string name="Melanholik2_Qw"> чувствуете себя неловко в новой обстановке</string>
-    <string name="Melanholik3_Qw"> с трудом идете на контакт с новыми людьми</string>
-    <string name="Melanholik4_Qw"> не уверены в своих силах</string>
-    <string name="Melanholik5_Qw"> спокойно переносите одиночество</string>
-    <string name="Melanholik6_Qw"> чувствуете подавленность и растерянность при неудаче</string>
-    <string name="Melanholik7_Qw"> склонны «уходить в себя»</string>
-    <string name="Melanholik8_Qw"> быстро устаете</string>
-    <string name="Melanholik9_Qw"> говорите спокойно, тихо, иногда почти шепотом</string>
-    <string name="Melanholik10_Qw"> приспосабливаетесь к характеру собеседника</string>
-    <string name="Melanholik11_Qw">  впечатлительны до слез</string>
-    <string name="Melanholik12_Qw"> чувствительны к похвале, недовольству и порицанию</string>
-    <string name="Melanholik13_Qw">  много требуете и от себя, и от окружающих</string>
-    <string name="Melanholik14_Qw"> подозрительны и мнительны</string>
-    <string name="Melanholik15_Qw">  чувствительны и легкоранимы</string>
-    <string name="Melanholik16_Qw"> очень обидчивы</string>
-    <string name="Melanholik17_Qw">  скрытны и необщительны, никому не открываете своих мыслей</string>
-    <string name="Melanholik18_Qw"> малоактивны</string>
-    <string name="Melanholik19_Qw"> покоряетесь своему кумиру</string>
-    <string name="Melanholik20_Qw"> постоянно стремитесь вызвать сочувствие и обращаетесь за помощью к окружающим </string>
-
+    <string name="Melanholik1_Qw"> Shy and modest</string>
+    <string name="Melanholik2_Qw"> Feel uncomfortable in a new environment</string>
+    <string name="Melanholik3_Qw"> Having a hard time making contact with new people</string>
+    <string name="Melanholik4_Qw"> Not confident in their abilities</string>
+    <string name="Melanholik5_Qw"> Take it easy when youre alone</string>
+    <string name="Melanholik6_Qw"> Feel overwhelmed and confused when you fail</string>
+    <string name="Melanholik7_Qw"> Tend to withdraw into themselves</string>
+    <string name="Melanholik8_Qw"> Get tired quickly</string>
+    <string name="Melanholik9_Qw"> Speak calmly, softly, sometimes almost in a whisper</string>
+    <string name="Melanholik10_Qw"> Adapt to the character of the interlocutor</string>
+    <string name="Melanholik11_Qw"> Impressible to tears</string>
+    <string name="Melanholik12_Qw"> Are sensitive to praise, displeasure and blame</string>
+    <string name="Melanholik13_Qw"> You demand a lot from yourself and others</string>
+    <string name="Melanholik14_Qw"> Suspicious and suspicious</string>
+    <string name="Melanholik15_Qw"> Sensitive and easily hurt</string>
+    <string name="Melanholik16_Qw"> Very touchy</string>
+    <string name="Melanholik17_Qw"> Secretive and uncommunicative, do not reveal your thoughts to anyone</string>
+    <string name="Melanholik18_Qw"> Inactive</string>
+    <string name="Melanholik19_Qw"> Submit to your idol</string>
+    <string name="Melanholik20_Qw"> Continually strive to evoke empathy and reach out to those around you for help</string>
 
     <string name="title_activity_main2">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -317,34 +325,62 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="sposobnosti_item">Тесты на способности</string>
-    <string name="main_page">Главная страница</string>
-    <string name="haracter_item">Тесты на характер</string>
-    <string name="family_item">Семейные тесты</string>
-    <string name="test_intelect">Тесты на интелект</string>
+    <string name="sposobnosti_item">Ability Tests</string>
+    <string name="main_page">Main Page</string>
+    <string name="haracter_item">Character Tests</string>
+    <string name="family_item">Family tests</string>
+    <string name="test_intelect">Intelligence tests</string>
 
-    <string name="CreationDialog">Если для вас это актуально, то попробуйте выяснить какой же у Вас творческий потенциал.
-        /n/n Если Вы уже состоялись как художник или музыкант, то, очевидно,
-        прохождение этого теста не должно представлять для Вас интереса.</string>
-    <string name="CreationQw_1">  Считаете ли вы, что окружающий вас мир может быть улучшен?</string>
-    <string name="CreationAnswer_1_1"> да </string>
-    <string name="CreationAnswer_1_2"> нет, он и так достаточно хорош </string>
-    <string name="CreationAnswer_1_3"> да, но только кое в чем </string>
+    <string name="CreationDialog">If this is relevant to you, then try to find out what kind of creativity you have.
+        /n/n If you are already established as an artist or musician, then, obviously,
+        passing this test should not be of interest to you.</string>
+    <string name="CreationQw_1"> Do you think the world around you can be improved?</string>
+    <string name="CreationAnswer_1_1"> Yes </string>
+    <string name="CreationAnswer_1_2"> No, he is good enough as it is </string>
+    <string name="CreationAnswer_1_3"> Yes, but only a little bit </string>
 
-    <string name="CreationQw_2">  Думаете ли вы, что сами можете участвовать
-        в значительных изменениях окружающего мира?</string>
-    <string name="CreationAnswer_2_1"> да, в большинстве случаев </string>
-    <string name="CreationAnswer_2_2"> нет </string>
-    <string name="CreationAnswer_2_3"> да, в некоторых случаях </string>
+    <string name="CreationQw_2"> Do you think you can participate
+        in significant changes in the surrounding world?</string>
+    <string name="CreationAnswer_2_1"> Yes, most of the time </string>
+    <string name="CreationAnswer_2_2"> None </string>
+    <string name="CreationAnswer_2_3"> Yes, in some cases </string>
 
-    <string name="CreationQw_3">  Считаете ли вы, что некоторые из ваших идей принесли бы
-        значительный прогресс в той сфере деятельности,
-        в которой вы работаете?</string>
-    <string name="CreationAnswer_3_1"> да </string>
-    <string name="CreationAnswer_3_2"> да, при благоприятных обстоятельствах </string>
-    <string name="CreationAnswer_3_3"> лишь в некоторой степени </string>
+    <string name="CreationQw_3"> Do you think that some of your ideas would bring
+        significant progress in the field
+        where do you work?</string>
+    <string name="CreationAnswer_3_1"> yes </string>
+    <string name="CreationAnswer_3_2"> yes, under favorable circumstances </string>
+    <string name="CreationAnswer_3_3"> only to some extent </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="history">History of passed tests</string>
+    <string name="texttest">Language selection</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="BacTotheList">Back to the list of tests</string>
+    <string name="Question">Question</string>
+    <string name="Honesty_test">Honesty test</string>
+    <string name="Mindfulness_Test">Mindfulness Test</string>
+    <string name="Kindness_Test">Kindness Test</string>
+    <string name="wealth_test">Wealth test</string>
+    <string name="Temperament_Test">Temperament Test</string>
+    <string name="Start_test">Start test</string>
+    <string name="flegmatik"> You are a phlegmatic at %1$d </string>
+    <string name="melancholic"> You are a melancholic at %1$d  </string>
+    <string name="sanguine">You are a sanguine at %1$d </string>
+    <string name="Choleric">You are a  choleric at %1$d</string>
+    <string name="resTemperament"> Your results: (Severity of temperament qualities: from 40%
+                    and above - this type of temperament dominates in you;\n
+                    from 30 or more - the qualities of this temperament are pronounced</string>
+    <string name="Hotestyqw"> 33 questions </string>
+    <string name="Mindfulnessqw"> 15 questions </string>
+    <string name="Kindnessqw"> 12 questions </string>
+    <string name="wealthsqw"> 7 questions </string>
+    <string name="Temperamentqw"> 20 questions </string>
+    <string name="Settings">Settings</string>
+    <string name="Back">Сome back</string>
+    <string name="AllTest">All tests</string>
+    <string name="Izbrannoe">Favorites</string>
+    <string name="SelectVar">Choose the option that suits you best</string>
 
 </resources>

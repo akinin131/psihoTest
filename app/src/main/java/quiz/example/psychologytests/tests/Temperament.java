@@ -2,6 +2,7 @@ package quiz.example.psychologytests.tests;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
@@ -16,6 +17,7 @@ import quiz.example.psychologytests.R;
 import quiz.example.psychologytests.activityTest.MainActivity;
 import quiz.example.psychologytests.activityTest.Room.AppDatabase;
 import quiz.example.psychologytests.activityTest.Room.User;
+import quiz.example.psychologytests.activityTest.stateadapter.StateHaracter;
 import quiz.example.psychologytests.qw.TemperamentQw;
 
 public class Temperament extends AppCompatActivity {
@@ -28,9 +30,9 @@ public class Temperament extends AppCompatActivity {
     TextView textViewQw;
     float countHalerik = 0;
     float countSangvinik = 0;
-    float countFlegmatik = 0;
-    float countMelanholik = 0;
-    float index = 0;
+    float  countFlegmatik = 0;
+    float  countMelanholik = 0;
+    float  index = 0;
 
     TextView numberQwTextView;
     TextView voprosTextView;
@@ -80,8 +82,6 @@ public class Temperament extends AppCompatActivity {
                 startActivity(intent);
                 finish();
                 dialog.dismiss();
-
-
             }
         });
 
@@ -90,7 +90,6 @@ public class Temperament extends AppCompatActivity {
         textViewQw_one = findViewById(R.id.textViewQ);
         textViewQw_two = findViewById(R.id.textView2);
         textViewQw_free = findViewById(R.id.textView3);
-
 
         dialog.show();
 
@@ -152,7 +151,7 @@ public class Temperament extends AppCompatActivity {
         });
     }
 
-    public void saveNewUser(String firstName, String lastName) {
+    public void saveNewUser(int firstName, int lastName) {
         AppDatabase db  = AppDatabase.getDbInstance(this.getApplicationContext());
 
         User user = new User();
@@ -161,12 +160,12 @@ public class Temperament extends AppCompatActivity {
         db.userDao().insertUser(user);
     }
 
+    @SuppressLint("SetTextI18n")
     private void AnswerClock() {
 
         index++;
 
-        if (index == 20) {
-
+        if (index>=20) {
 
             numberQwTextView.setVisibility(View.GONE);
             numberQwTextView.setClickable(false);
@@ -186,15 +185,25 @@ public class Temperament extends AppCompatActivity {
             countMelanholik = (countMelanholik / 20) * 100;
             countSangvinik = (countSangvinik / 20) * 100;
             countHalerik = (countHalerik / 20) * 100;
-            textViewQw_one.setText("Флегматик: "+countFlegmatik+ "%");
-            textViewQw_two.setText("Меланхолик: "+countMelanholik+ "%");
-            textViewQw_free.setText("Сангвиниг: "+countSangvinik+ "%");
-            textViewQwMelanholik.setText("Халерик: "+countHalerik+ "%");
-            textViewQw.setText("Ваши результаты: (Выраженность качеств темперамента: от 40 %" +
-                    " и выше – данный вид темперамента у вас доминирует;\n" +
-                    "от 30 и более – качества данного темперамента выражены ярко)");
+            String.format("%.1f", countMelanholik);
+            String.format("%.1f", countFlegmatik);
+            String.format("%.1f", countSangvinik);
+            String.format("%.1f", countHalerik);
+            textViewQw_one.setText(textViewQw_one.getContext().getString(R.string.flegmatik, (int)countFlegmatik)+"%");
+            textViewQw_two.setText(textViewQw_two.getContext().getString(R.string.melancholic, (int)countMelanholik)+"%");
+            textViewQw_free.setText(textViewQw_free.getContext().getString(R.string.sanguine, (int)countSangvinik)+"%");
+            textViewQwMelanholik.setText(textViewQwMelanholik.getContext().getString(R.string.Choleric, (int)countHalerik)+"%");
+            textViewQw.setText(R.string.resTemperament);
 
-            saveNewUser("Тест на темперамент","20 вопросов");
+
+            textViewQw_one.setClickable(false);
+            textViewQw_two.setClickable(false);
+            textViewQw_free.setClickable(false);
+            textViewQwMelanholik.setClickable(false);
+            textViewQw.setClickable(false);
+
+
+            saveNewUser(R.string.Temperament_Test,R.string.Temperamentqw);
 
         } else {
             textViewQw_one.setText(obs.oneText_Halerik[(int) index]);

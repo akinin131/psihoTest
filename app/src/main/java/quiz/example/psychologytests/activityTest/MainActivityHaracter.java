@@ -41,7 +41,7 @@ public class MainActivityHaracter extends AppCompatActivity implements Navigatio
         StateAdapterHaracter adapter = new StateAdapterHaracter(this, states1,this);
         // устанавливаем для списка адаптер
         recyclerView.setAdapter(adapter);
-
+        setTitle(getString(R.string.haracter_item));
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -57,9 +57,9 @@ public class MainActivityHaracter extends AppCompatActivity implements Navigatio
 
     private void setInitialData(){
 
-        states1.add(new StateHaracter("Тест на честность","33 вопроса"));
-        states1.add(new StateHaracter("Тест на доброту","12 вопросов"));
-        states1.add(new StateHaracter("Тест на темперамент","20 вопросов"));
+        states1.add(new StateHaracter(R.string.Honesty_test,R.string.Hotestyqw));
+        states1.add(new StateHaracter(R.string.Kindness_Test,R.string.Kindnessqw));
+        states1.add(new StateHaracter(R.string.Temperament_Test,R.string.Temperamentqw));
 
     }
     @Override

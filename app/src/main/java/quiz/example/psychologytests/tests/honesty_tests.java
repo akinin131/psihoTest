@@ -147,7 +147,7 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
         });
 
     }
-    public void saveNewUser(String firstName, String lastName) {
+    public void saveNewUser(int firstName, int lastName) {
         AppDatabase db  = AppDatabase.getDbInstance(this.getApplicationContext());
 
         User user = new User();
@@ -172,7 +172,7 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
             vopros2TextView.setClickable(false);
             vopros2TextView.setVisibility(View.GONE);
 
-            saveNewUser("Тест на доброту","33 Вопроса");
+            saveNewUser(R.string.Honesty_test,R.string.Hotestyqw);
             if (count<=5){
                 textViewQw.setText(R.string.level1_oneAnswer);
                 buttonYes.setVisibility(View.GONE);

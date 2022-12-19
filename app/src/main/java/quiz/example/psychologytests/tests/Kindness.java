@@ -5,12 +5,15 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.List;
 
 import quiz.example.psychologytests.R;
 import quiz.example.psychologytests.activityTest.MainActivity;
@@ -33,6 +36,17 @@ public class Kindness extends AppCompatActivity {
     TextView vopros1TextView;
     TextView vopros2TextView;
     int numberQw = 1;
+
+    public boolean isDobro() {
+        return dobro;
+    }
+
+    public void setDobro(boolean dobro) {
+        this.dobro = dobro;
+    }
+
+    List<User> userList;
+    public boolean dobro = false;
 
 
 
@@ -128,15 +142,18 @@ public class Kindness extends AppCompatActivity {
             }
         });
     }
-    public void saveNewUser(String firstName, String lastName) {
+    public void saveNewUser(int firstName, int lastName) {
         AppDatabase db  = AppDatabase.getDbInstance(this.getApplicationContext());
-
         User user = new User();
-        user.firstName = firstName;
-        user.lastName = lastName;
-        db.userDao().insertUser(user);
-    }
+        //userList = db.userDao().getAllUsers();
+           user.firstName = firstName;
+           user.lastName = lastName;
+           db.userDao().insertUser(user);
+          // System.out.println(userList);
 
+       //dobro = true;
+
+    }
 
     private void AnswerClock(boolean answer) {
 
@@ -154,7 +171,7 @@ public class Kindness extends AppCompatActivity {
 
             vopros2TextView.setClickable(false);
             vopros2TextView.setVisibility(View.GONE);
-            saveNewUser("Тест на честность","12 вопросов");
+            saveNewUser(R.string.Kindness_Test,R.string.Kindnessqw);
 
             if (count < 4) {
                 textViewQw.setText(R.string.kindness_threeAnswer);
