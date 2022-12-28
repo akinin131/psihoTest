@@ -81,8 +81,7 @@ ObservationQw obs = new ObservationQw();
             }
         });
 
-        buttonBack.setVisibility(View.GONE);
-        buttonBack.setClickable(false);
+
         textViewQw_one = findViewById(R.id.textView1);
         textViewQw_two=findViewById(R.id.textView2);
         textViewQw_free =findViewById(R.id.textView3);

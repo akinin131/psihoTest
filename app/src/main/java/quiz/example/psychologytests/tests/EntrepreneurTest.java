@@ -46,8 +46,7 @@ public class EntrepreneurTest extends AppCompatActivity {
         textViewQw = findViewById(R.id.textView);
         buttonBack = findViewById(R.id.buttonBack);
 
-        buttonBack.setVisibility(View.GONE);
-        buttonBack.setClickable(false);
+
         textViewQw_one = findViewById(R.id.textView1);
         textViewQw_two=findViewById(R.id.textView2);
         textViewQw_free =findViewById(R.id.textView3);
@@ -172,34 +171,26 @@ public class EntrepreneurTest extends AppCompatActivity {
 
             if (count<=12){
                 textViewQw.setText(R.string.EntrepreneurAnswer12);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
+
             }
 
             else if (count>=13 &&count <=16){
                 textViewQw.setText(R.string.EntrepreneurAnswer13_16);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
+
             }
 
             else if (count>=17 &&count <=20){
                 textViewQw.setText(R.string.EntrepreneurAnswer17_20);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
                 numberQwTextView.setVisibility(View.GONE);
                 numberQwTextView.setClickable(false);
             }
             else if (count>=21 &&count <=24){
                 textViewQw.setText(R.string.EntrepreneurAnswer21_24);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
                 numberQwTextView.setVisibility(View.GONE);
                 numberQwTextView.setClickable(false);
             }
             else if (count>=25 &&count <=28){
                 textViewQw.setText(R.string.EntrepreneurAnswer25_28);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
                 numberQwTextView.setVisibility(View.GONE);
                 numberQwTextView.setClickable(false);
             }

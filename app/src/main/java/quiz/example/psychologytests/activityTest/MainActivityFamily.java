@@ -86,6 +86,10 @@ public class MainActivityFamily extends AppCompatActivity implements NavigationV
             Intent intent = new Intent(MainActivityFamily.this, Izbrannoe.class);
             startActivity(intent);
         }
+        else if (id == R.id.settings) {
+            Intent intent = new Intent(MainActivityFamily.this, Settings.class);
+            startActivity(intent);
+        }
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }

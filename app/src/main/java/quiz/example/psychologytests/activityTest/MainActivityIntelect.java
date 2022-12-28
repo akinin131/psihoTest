@@ -80,6 +80,10 @@ public class MainActivityIntelect extends AppCompatActivity implements Navigatio
             Intent intent = new Intent(MainActivityIntelect.this, Izbrannoe.class);
             startActivity(intent);
         }
+        else if (id == R.id.settings) {
+            Intent intent = new Intent(MainActivityIntelect.this, Settings.class);
+            startActivity(intent);
+        }
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }

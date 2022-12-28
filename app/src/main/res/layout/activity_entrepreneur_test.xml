@@ -160,7 +160,7 @@
             android:padding="8dp"
             android:fontFamily="@font/roboto"
             android:background="@drawable/stule_btn_black95_and_true"
-            android:text="@string/BacTotheList"
+            android:text="@string/Back"
             android:textColor="@color/text"
             android:textSize="24sp" />
 

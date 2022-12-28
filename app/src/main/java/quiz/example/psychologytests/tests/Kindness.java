@@ -84,8 +84,7 @@ public class Kindness extends AppCompatActivity {
 
 
         textViewQw.setText(kindnessQws[index].getNumberQw());
-        buttonBack.setVisibility(View.GONE);
-        buttonBack.setClickable(false);
+
         dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.previewdialog);
@@ -171,34 +170,27 @@ public class Kindness extends AppCompatActivity {
 
             vopros2TextView.setClickable(false);
             vopros2TextView.setVisibility(View.GONE);
+
+            buttonYes.setVisibility(View.GONE);
+            buttonYes.setClickable(false);
+            buttonNo.setVisibility(View.GONE);
+            buttonNo.setClickable(false);
+
             saveNewUser(R.string.Kindness_Test,R.string.Kindnessqw);
+
 
             if (count < 4) {
                 textViewQw.setText(R.string.kindness_threeAnswer);
-                buttonYes.setVisibility(View.GONE);
-                buttonYes.setClickable(false);
-                buttonNo.setVisibility(View.GONE);
-                buttonNo.setClickable(false);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
+
+
 
             } else if (count >= 4 && count <= 8) {
                 textViewQw.setText(R.string.kindness_twoAnswer);
-                buttonYes.setVisibility(View.GONE);
-                buttonYes.setClickable(false);
-                buttonNo.setVisibility(View.GONE);
-                buttonNo.setClickable(false);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
+
 
             } else if (count > 8) {
                 textViewQw.setText(R.string.kindness_oneAnswer);
-                buttonYes.setVisibility(View.GONE);
-                buttonYes.setClickable(false);
-                buttonNo.setVisibility(View.GONE);
-                buttonNo.setClickable(false);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
+
             }
 
         } else if (answer == kindnessQws[index].isAnswer()) {

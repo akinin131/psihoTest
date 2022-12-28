@@ -85,8 +85,7 @@ public class Temperament extends AppCompatActivity {
             }
         });
 
-        buttonBack.setVisibility(View.GONE);
-        buttonBack.setClickable(false);
+
         textViewQw_one = findViewById(R.id.textViewQ);
         textViewQw_two = findViewById(R.id.textView2);
         textViewQw_free = findViewById(R.id.textView3);
@@ -179,8 +178,6 @@ public class Temperament extends AppCompatActivity {
             vopros2TextView.setClickable(false);
             vopros2TextView.setVisibility(View.GONE);
 
-            buttonBack.setClickable(true);
-            buttonBack.setVisibility(View.VISIBLE);
             countFlegmatik = (countFlegmatik / 20) * 100;
             countMelanholik = (countMelanholik / 20) * 100;
             countSangvinik = (countSangvinik / 20) * 100;

@@ -21,6 +21,7 @@ import quiz.example.psychologytests.qw.level1Qw;
 public class honesty_tests extends AppCompatActivity {
     Button buttonYes;
     Button buttonBack;
+    Button buttonBackList;
     Button buttonNo;
     TextView textViewQw;
     TextView numberQwTextView;
@@ -84,14 +85,14 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
         vopros2TextView = findViewById(R.id.vopros2);
         buttonBack = findViewById(R.id.buttonBack);
 
+
         textViewQw.setText(level1Qw1[index].getNumberQw());
-        buttonBack.setVisibility(View.GONE);
-        buttonBack.setClickable(false);
         dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.previewdialog);
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT)); // прозрачный фон диалогового окна
         dialog.setCancelable(false);
+
         Button btncontinue1 = dialog.findViewById(R.id.buttondiolog);
         TextView btnconсclose = dialog.findViewById(R.id.btnclose);
         TextView textView1 = dialog.findViewById(R.id.text);
@@ -102,7 +103,15 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
             @Override
             public void onClick(View view) {
                 dialog.dismiss();
+            }
+        });
 
+        buttonBack .setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(honesty_tests.this, MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
         btnconсclose.setOnClickListener(new View.OnClickListener() {
@@ -112,7 +121,6 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
                 startActivity(intent);
                 finish();
                 dialog.dismiss();
-
             }
         });
         dialog.show();
@@ -124,8 +132,6 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
                 numberQw++;
                 String b = String.valueOf(numberQw);
                 numberQwTextView.setText(b);
-
-
             }
         });
         buttonNo.setOnClickListener(new View.OnClickListener() {
@@ -145,7 +151,6 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
               finish();
             }
         });
-
     }
     public void saveNewUser(int firstName, int lastName) {
         AppDatabase db  = AppDatabase.getDbInstance(this.getApplicationContext());
@@ -172,57 +177,46 @@ private  level1Qw[] level1Qw1 = new level1Qw[]{
             vopros2TextView.setClickable(false);
             vopros2TextView.setVisibility(View.GONE);
 
+
+
             saveNewUser(R.string.Honesty_test,R.string.Hotestyqw);
+
             if (count<=5){
                 textViewQw.setText(R.string.level1_oneAnswer);
                 buttonYes.setVisibility(View.GONE);
                 buttonYes.setClickable(false);
                 buttonNo.setVisibility(View.GONE);
                 buttonNo.setClickable(false);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
-
-
 
             }
+
              else if (count>5 &&count <=13){
                 textViewQw.setText(R.string.level1_twoAnswer);
                 buttonYes.setVisibility(View.GONE);
                 buttonYes.setClickable(false);
                 buttonNo.setVisibility(View.GONE);
                 buttonNo.setClickable(false);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
-
-
 
             }
+
             else if (count>13 &&count <=29){
                 textViewQw.setText(R.string.level1_threeAnswer);
-
-
                 buttonYes.setVisibility(View.GONE);
                 buttonYes.setClickable(false);
                 buttonNo.setVisibility(View.GONE);
                 buttonNo.setClickable(false);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
-
 
             }
+
             else if (count>29 &&count <=34){
                 textViewQw.setText(R.string.level1_fourAnswer);
                 buttonYes.setVisibility(View.GONE);
                 buttonYes.setClickable(false);
                 buttonNo.setVisibility(View.GONE);
-
                 buttonNo.setClickable(false);
-                buttonBack.setVisibility(View.VISIBLE);
-                buttonBack.setClickable(true);
-
-
 
             }
+
         }else if (answer == level1Qw1[index].isAnswer()){
             textViewQw.setText(level1Qw1[index].getNumberQw());
             count++;
