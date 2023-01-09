@@ -124,7 +124,8 @@
         но все же при оценке вас иногда подводит предубежденность.</string>
     <string name="observation_threeAnswer"> Вас не слишком интересует то, что скрывается за внешностью, манерой пове
         дения других. Хотя в общении у вас не возникает сколько-нибудь серьезных психологических проблем.
-Менее 45 очков. Вас абсолютно не интересуют сокровенные мысли тех, кто рядом с вами. Вы слишком заняты, вам некогда анализировать даже собственные поступки, не то что чужие. Вы не обидитесь, если вас будут считать эгоистом?</string>
+Менее 45 очков. Вас абсолютно не интересуют сокровенные мысли тех, кто рядом с вами. Вы слишком заняты, вам некогда
+        анализировать даже собственные поступки, не то что чужие. Вы не обидитесь, если вас будут считать эгоистом?</string>
 
     <string name="kindness">  Тест Добрый ли вы? </string>
     <string name="kindness_dialog">  Добры ли Вы, и внимательны ли к окружающим? Способны ли Вы отдать последнюю рубашку тому, кому она нужнее? На эти вопросы вам поможет ответить наш тест </string>
@@ -355,6 +356,7 @@
     <string name="BacTotheList">Вернуться к списку тестов</string>
     <string name="Question">Вопрос</string>
     <string name="Honesty_test">Тест на честность</string>
+    <string name="Intelligence_test">Насколько прокачан ваш мозг?</string>
     <string name="Mindfulness_Test">Тест на внимательность</string>
     <string name="Kindness_Test">Тест на доброту</string>
     <string name="wealth_test">Тест на богатство</string>
@@ -372,9 +374,82 @@
     <string name="Kindnessqw"> 12 вопросов </string>
     <string name="wealthsqw"> 7 вопросов </string>
     <string name="Temperamentqw"> 20 вопросов </string>
+    <string name="Intelecttqw"> 12 questions </string>
     <string name="Settings">Настройки</string>
     <string name="Back">Вернуться назад</string>
     <string name="AllTest">Все тесты</string>
     <string name="Izbrannoe">Избранное</string>
     <string name="SelectVar">Выберете вариант наиболее близкий к вам</string>
+
+
+    //Вопросы и ответы к тестам на интелект 1 - Начало
+    <string name="IntelectOne_qw_1">Какой знак восточного гороскопа следует за знаком Змеи?</string>
+    <string name="IntelectOne_qw_2">Что испанцы съедают в новогоднюю ночь с каждым ударом часов?</string>
+    <string name="IntelectOne_qw_3">Изучение соединений какого элемента является основой органической химии?</string>
+    <string name="IntelectOne_qw_4">Вы знаете, как назывался верховный орган власти в Древнем Риме?</string>
+    <string name="IntelectOne_qw_5">На какой птице летала Дюймовочка в сказке Андерсена?</string>
+    <string name="IntelectOne_qw_6">В какой области вручают премию «Эмми»?</string>
+    <string name="IntelectOne_qw_7">В каком цвете видели мир жители сказочного Изумрудного города?</string>
+    <string name="IntelectOne_qw_8">Какой стране принадлежит остров Гренландия?</string>
+    <string name="IntelectOne_qw_9">В чём измеряют силу электрического тока?</string>
+    <string name="IntelectOne_qw_10">Из какого рода супруга короля Франции Генриха II Екатерина?</string>
+    <string name="IntelectOne_qw_11">Как называется русская летопись?</string>
+    <string name="IntelectOne_qw_12">Что коллекционирует филуменист?</string>
+
+    <string name="IntelectOne_qw_1_1">Бык</string>
+    <string name="IntelectOne_qw_1_2">Дракон</string>
+    <string name="IntelectOne_qw_1_3">Лошадь</string>//
+
+
+    <string name="IntelectOne_qw_2_1">Виноградинку</string>//
+    <string name="IntelectOne_qw_2_2">Помидорку</string>
+    <string name="IntelectOne_qw_2_3">Макаронину</string>
+
+    <string name="IntelectOne_qw_3_1">Водород</string>
+    <string name="IntelectOne_qw_3_2">Кислород</string>
+    <string name="IntelectOne_qw_3_3">Углерод</string>//
+
+    <string name="IntelectOne_qw_4_1">Сенат</string>//
+    <string name="IntelectOne_qw_4_2">Олимпия</string>
+    <string name="IntelectOne_qw_4_3">Дума</string>
+
+    <string name="IntelectOne_qw_5_1">Лебедь</string>
+    <string name="IntelectOne_qw_5_2">Журавль</string>
+    <string name="IntelectOne_qw_5_3">Ласточка</string>//
+
+    <string name="IntelectOne_qw_6_1">Театр</string>
+    <string name="IntelectOne_qw_6_2">Литература</string>
+    <string name="IntelectOne_qw_6_3">Телевидение</string>//
+
+    <string name="IntelectOne_qw_7_1">В розовом</string>
+    <string name="IntelectOne_qw_7_2">В чёрном</string>
+    <string name="IntelectOne_qw_7_3">В зелёном</string>//
+
+    <string name="IntelectOne_qw_8_1">Дания</string>//
+    <string name="IntelectOne_qw_8_2">Германия</string>
+    <string name="IntelectOne_qw_8_3">Финляндия</string>
+
+    <string name="IntelectOne_qw_9_1">Ватт</string>
+    <string name="IntelectOne_qw_9_2">Вольт</string>
+    <string name="IntelectOne_qw_9_3">Ампер</string>//
+
+    <string name="IntelectOne_qw_10_1">Медичи</string>//
+    <string name="IntelectOne_qw_10_2">Борджиа</string>
+    <string name="IntelectOne_qw_10_3">Пацци</string>
+
+    <string name="IntelectOne_qw_11_1">Повесть временных лет</string>//
+    <string name="IntelectOne_qw_11_2">Азбука</string>
+    <string name="IntelectOne_qw_11_3">Война и мир</string>
+
+    <string name="IntelectOne_qw_12_1">Фотографии</string>
+    <string name="IntelectOne_qw_12_2">Пробки</string>
+    <string name="IntelectOne_qw_12_3">Спичечные коробки</string>//
+    <string name="IntelectOnedialog">Умный ли я человек? Уверены, этот вопрос неоднократно задавал себе каждый.
+        С интеллектуальными способностями мы связываем достаток, успех в жизни, отношение к нам окружающих и даже любовь близких. Мы предлагаем пройти тест, который позволит ответить на этот важный вопрос. Не претендуем на окончательный вердикт и надеемся, что вы отнесетесь
+        к тесту с долей юмора. При этом уверены, что тест будет вам интересен. Начинаем!</string>
+
+    <string name="IntelectOneAnswer">Вы не смогли ответить на %1$d вопросов
+        Кажется, чтобы показать максимальный результат, вам нужно размять извилины. Попробуйте еще раз!</string>
+
+    //Вопросы и ответы к тестам на интелект 1 - Начал
 </resources>

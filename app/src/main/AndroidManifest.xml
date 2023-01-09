@@ -15,6 +15,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PsychologyTests.NoActionBar">
         <activity
+            android:name=".tests.Intelect_One"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".activityTest.Settings"
             android:exported="false" />
         <activity

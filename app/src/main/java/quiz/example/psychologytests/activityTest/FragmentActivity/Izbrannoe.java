@@ -117,6 +117,7 @@ public class Izbrannoe extends AppCompatActivity implements NavigationView.OnNav
             startActivity(intent);
             finish();
         }
+
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }

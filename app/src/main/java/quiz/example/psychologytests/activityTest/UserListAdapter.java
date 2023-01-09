@@ -15,7 +15,12 @@ import java.util.List;
 import quiz.example.psychologytests.R;
 import quiz.example.psychologytests.activityTest.Room.AppDatabase;
 import quiz.example.psychologytests.activityTest.Room.User;
+import quiz.example.psychologytests.tests.EntrepreneurTest;
+import quiz.example.psychologytests.tests.Intelect_One;
 import quiz.example.psychologytests.tests.Kindness;
+import quiz.example.psychologytests.tests.Observation_tests;
+import quiz.example.psychologytests.tests.Temperament;
+import quiz.example.psychologytests.tests.honesty_tests;
 
 
 public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.MyViewHolder> {
@@ -60,7 +65,6 @@ public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.MyView
                 notifyItemRangeChanged(position,userList.size());
             }
         });
-
     }
 
     @Override
@@ -91,35 +95,44 @@ public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.MyView
                         context.startActivity(intent);
                     }
                     else if (tvFirstName.getText().toString().equals("Wealth test")){
-                        Intent intent = new Intent(context, Kindness.class);
+                        Intent intent = new Intent(context, EntrepreneurTest.class);
                         context.startActivity(intent);
                     }
                     else if (tvFirstName.getText().toString().equals("Тест на богатство")){
-                        Intent intent = new Intent(context, Kindness.class);
+                        Intent intent = new Intent(context, EntrepreneurTest.class);
                         context.startActivity(intent);
                     }
                     else if (tvFirstName.getText().toString().equals("Тест на честность")){
-                        Intent intent = new Intent(context, Kindness.class);
+                        Intent intent = new Intent(context, honesty_tests.class);
                         context.startActivity(intent);
                     }
                     else if (tvFirstName.getText().toString().equals("Honesty test")){
-                        Intent intent = new Intent(context, Kindness.class);
+                        Intent intent = new Intent(context, honesty_tests.class);
                         context.startActivity(intent);
                     }
                     else if (tvFirstName.getText().toString().equals("Mindfulness Test")){
-                        Intent intent = new Intent(context, Kindness.class);
+                        Intent intent = new Intent(context, Observation_tests.class);
                         context.startActivity(intent);
                     }
+
                     else if (tvFirstName.getText().toString().equals("Тест на внимательность")){
-                        Intent intent = new Intent(context, Kindness.class);
+                        Intent intent = new Intent(context, Observation_tests.class);
                         context.startActivity(intent);
                     }
                     else if (tvFirstName.getText().toString().equals("Temperament Test")){
-                        Intent intent = new Intent(context, Kindness.class);
+                        Intent intent = new Intent(context, Temperament.class);
                         context.startActivity(intent);
                     }
                     else if (tvFirstName.getText().toString().equals("Тест на темперамент")){
-                        Intent intent = new Intent(context, Kindness.class);
+                        Intent intent = new Intent(context, Temperament.class);
+                        context.startActivity(intent);
+                    }
+                    else if (tvFirstName.getText().toString().equals("Тест на интелект")){
+                        Intent intent = new Intent(context, Intelect_One.class);
+                        context.startActivity(intent);
+                    }
+                    else if (tvFirstName.getText().toString().equals("Intelligence test")){
+                        Intent intent = new Intent(context, Intelect_One.class);
                         context.startActivity(intent);
                     }
                 }

@@ -16,6 +16,7 @@ import java.util.List;
 import quiz.example.psychologytests.R;
 import quiz.example.psychologytests.activityTest.stateadapter.StateMain;
 import quiz.example.psychologytests.tests.EntrepreneurTest;
+import quiz.example.psychologytests.tests.Intelect_One;
 import quiz.example.psychologytests.tests.Kindness;
 import quiz.example.psychologytests.tests.Observation_tests;
 import quiz.example.psychologytests.tests.Temperament;
@@ -86,6 +87,11 @@ public class StateAdapterMain extends RecyclerView.Adapter<StateAdapterMain.View
                     Log.d("evev", "vreve");
                 } else if (positionIndex == 4) {
                     Intent intent = new Intent(context13, Temperament.class);
+                    context13.startActivity(intent);
+                    Log.d("evev", "vreve");
+                }
+                else if (positionIndex == 5) {
+                    Intent intent = new Intent(context13, Intelect_One.class);
                     context13.startActivity(intent);
                     Log.d("evev", "vreve");
                 }

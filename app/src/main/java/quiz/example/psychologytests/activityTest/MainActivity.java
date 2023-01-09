@@ -76,7 +76,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
-
     }
 
      void setInitialData() {
@@ -85,6 +84,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         states1.add(new StateMain(R.string.Kindness_Test,R.string.Kindnessqw));
         states1.add(new StateMain(R.string.wealth_test,R.string.wealthsqw));
         states1.add(new StateMain(R.string.Temperament_Test,R.string.Temperamentqw));
+        states1.add(new StateMain(R.string.Intelligence_test,R.string.Intelecttqw));
     }
 
     @Override
