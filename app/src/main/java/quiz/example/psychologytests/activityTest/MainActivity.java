@@ -85,6 +85,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         states1.add(new StateMain(R.string.wealth_test,R.string.wealthsqw));
         states1.add(new StateMain(R.string.Temperament_Test,R.string.Temperamentqw));
         states1.add(new StateMain(R.string.Intelligence_test,R.string.Intelecttqw));
+        states1.add(new StateMain(R.string.Intelligence_test_Millioner,R.string.Intelecttqw));
+         states1.add(new StateMain(R.string.Intelligence_test_Random,R.string.Intelecttqw));
     }
 
     @Override

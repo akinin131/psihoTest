@@ -365,6 +365,8 @@ As a rule, our temperament is a mixture of the characteristics of two,
     <string name="wealth_test">Wealth test</string>
     <string name="Temperament_Test">Temperament Test</string>
     <string name="Intelligence_test">Насколько прокачан ваш мозг?</string>
+    <string name="Intelligence_test_Millioner">Кто хочет стать миллионером?</string>
+    <string name="Intelligence_test_Random">Рандомные вопросы обо всем?</string>
     <string name="Start_test">Start test</string>
     <string name="flegmatik"> You are a phlegmatic at %1$d </string>
     <string name="melancholic"> You are a melancholic at %1$d  </string>
@@ -450,9 +452,193 @@ As a rule, our temperament is a mixture of the characteristics of two,
     <string name="IntelectOne_qw_12_3">Спичечные коробки</string>//
     <string name="IntelectOneAnswer">Вы не смогли ответить на %1$d вопросов
         Кажется, чтобы показать максимальный результат, вам нужно размять извилины. Попробуйте еще раз!</string>
+
+    <string name="IntelectOneAnswer11">Вы смогли ответить на %1$d вопросов,
+       Вы набрали максимальный балл!!!</string>
+
     <string name="IntelectOnedialog">Умный ли я человек? Уверены, этот вопрос неоднократно задавал себе каждый.
         С интеллектуальными способностями мы связываем достаток, успех в жизни, отношение к нам окружающих и даже любовь близких. Мы предлагаем пройти тест, который позволит ответить на этот важный вопрос. Не претендуем на окончательный вердикт и надеемся, что вы отнесетесь
         к тесту с долей юмора. При этом уверены, что тест будет вам интересен. Начинаем!</string>
     //Вопросы и ответы к тестам на интелект 1 - Начал
+
+
+    //Выиграете ли вы в игре «Кто хочет стать миллионером»? - Начало
+    <string name="IntelectMill_qw_1">Длина удава в советском мультфильме была равна 38 попугаям и…</string>
+    <string name="IntelectMill_qw_2">Как звали няню А. С. Пушкина?</string>
+    <string name="IntelectMill_qw_3">Что помогает туристу ориентироваться в незнакомом городе?</string>
+    <string name="IntelectMill_qw_4">Какую деталь гардероба прославила басня Крылова?</string>
+    <string name="IntelectMill_qw_5">На каком канале транслируется передача «Голубой огонёк», начиная с 1998 года?</string>
+    <string name="IntelectMill_qw_6">Какое второе, неофициальное, название получил Челябинск во время ВОВ?</string>
+    <string name="IntelectMill_qw_7">Как правильно заканчивается пословица «В семье не без урода, ...</string>
+    <string name="IntelectMill_qw_8">Что такое «укулеле»?</string>
+    <string name="IntelectMill_qw_9">Какого созвездия нет на карте звёздного неба?</string>
+    <string name="IntelectMill_qw_10">Как звали старшую сестру императора Петра I?</string>
+    <string name="IntelectMill_qw_11">Какого царства природы не существует?</string>
+    <string name="IntelectMill_qw_12">Где проходили зимние Олимпийские игры в 2022 году?</string>
+
+
+    <string name="IntelectMil_qw_1_1">Одному крылышку</string>//
+    <string name="IntelectMil_qw_1_2">Одному хвостику</string>
+    <string name="IntelectMil_qw_1_3">Одному клюву</string>
+    <string name="IntelectMil_qw_1_4">Ещё половине попугая</string>
+
+    <string name="IntelectMil_qw_2_1">Арина</string>//
+    <string name="IntelectMil_qw_2_2">Аглая</string>
+    <string name="IntelectMil_qw_2_3">Анна</string>
+    <string name="IntelectMil_qw_2_4">Аида</string>
+
+    <string name="IntelectMil_qw_3_1">Переводчик</string>
+    <string name="IntelectMil_qw_3_2">Путеводная звезда</string>
+    <string name="IntelectMil_qw_3_3">Путевые заметки</string>
+    <string name="IntelectMil_qw_3_4">Путеводитель</string>//
+
+    <string name="IntelectMil_qw_4_1">Парик</string>
+    <string name="IntelectMil_qw_4_2">Кафтан</string>//
+    <string name="IntelectMil_qw_4_3">Чулок</string>
+    <string name="IntelectMil_qw_4_4">Полушубок</string>
+
+    <string name="IntelectMil_qw_5_1">Россия</string>//
+    <string name="IntelectMil_qw_5_2">Первый канал</string>
+    <string name="IntelectMil_qw_5_3">НТВ</string>
+    <string name="IntelectMil_qw_5_4">Культура</string>
+
+    <string name="IntelectMil_qw_6_1">Военград</string>
+    <string name="IntelectMil_qw_6_2">Ленинск</string>
+    <string name="IntelectMil_qw_6_3">Танкоград</string>//
+    <string name="IntelectMil_qw_6_4">Суровый</string>
+
+    <string name="IntelectMil_qw_7_1">знай своё место</string>
+    <string name="IntelectMil_qw_7_2">и такие встречаются</string>
+    <string name="IntelectMil_qw_7_3">а уроду что в лоб, что по лбу</string>
+    <string name="IntelectMil_qw_7_4">а из-за урода все не в угоду</string>//
+
+    <string name="IntelectMil_qw_8_1">Разновидность гитары</string>
+    //
+    <string name="IntelectMil_qw_8_2">Испанский соус</string>
+    <string name="IntelectMil_qw_8_3">Мексиканская шляпа</string>
+    <string name="IntelectMil_qw_8_4">Африканское растение</string>
+
+    <string name="IntelectMil_qw_9_1">Телескоп</string>
+    <string name="IntelectMil_qw_9_2">Микроскоп</string>
+    <string name="IntelectMil_qw_9_3">Насос</string>
+    <string name="IntelectMil_qw_9_4">Гороскоп</string>//
+
+    <string name="IntelectMil_qw_10_1">Екатерина</string>
+    <string name="IntelectMil_qw_10_2">Софья</string>
+    //
+    <string name="IntelectMil_qw_10_3">Любовь</string>
+    <string name="IntelectMil_qw_10_4">Елизавета</string>
+
+    <string name="IntelectMil_qw_11_1">Птиц</string>//
+    <string name="IntelectMil_qw_11_2">Животных</string>
+    <string name="IntelectMil_qw_11_3">Растений</string>
+    <string name="IntelectMil_qw_11_4">Грибов</string>
+
+    <string name="IntelectMil_qw_12_1">Нью-Йорк</string>
+    <string name="IntelectMil_qw_12_2">Алма-Ата</string>
+    <string name="IntelectMil_qw_12_3">Берлин</string>
+    <string name="IntelectMil_qw_12_4">Пекин</string>//
+
+
+    <string name="IntelectMilAnswer1">Вы смогли ответить на %1$d вопросов. Если вы отвечали на вопросы самостоятельно, ваших
+        знаний должно хватить для получения главного приза. Есть смысл подать заявку на участие в игре.</string>
+    // 9-12
+
+    <string name="IntelectMilAnswer2">Вы смогли ответить на %1$d вопросов. Половина правильных ответов могла бы принести вам не максимальный, но приятный
+        денежный приз. Многие игроки уходят из студии с пустыми руками из-за азарта. Помните что надо вовремя останавливаться</string>
+    // 6-8
+
+    <string name="IntelectMilAnswer3"> Вы смогли ответить на %1$d вопросов. Ваше место у экрана. Вам нравится наблюдать за ходом игры. Кажется, что вы отвечаете на вопросы
+        быстрее игроков в студии? Теперь вы знаете, что это не так</string>
+    // 0-5
+
+    <string name="IntelectMilDialog">Первые интеллектуальные игры с денежными призами появились на радио. На телеэкраны игра вышла в Великобритании в 1998 году. 
+        Очень быстро «Кто хочет стать миллионером?» распространилась по миру и заняла первые строчки в рейтингах. Сейчас проект работает в 120 странах. Сложность вопросов и условия везде одинаковые,
+        различаются только размер выигрыша — миллион фунтов или долларов не равен миллиону рублей. Отвечая на вопросы теста, можно понять, каковы ваши шансы на победу. Хотите попробовать? Мы начинаем!</string>
+    //Выиграете ли вы в игре «Кто хочет стать миллионером»? - конец
+
+    //Рандомные вопросы обо всем - Начало
+    <string name="IntelectRandomQw_qw_1">Кто убил Клеопатру?</string>
+    <string name="IntelectRandomQw_qw_2">Кто написал роман «Хижина дяди Тома»?</string>
+    <string name="IntelectRandomQw_qw_3">В каком городе стоит 38-метровая статуя Иисуса Христа?</string>
+    <string name="IntelectRandomQw_qw_4">Что из этого является названием координаты?</string>
+    <string name="IntelectRandomQw_qw_5">Как называется гибрид персика и яблока?</string>
+    <string name="IntelectRandomQw_qw_6">В каком веке была Тридцатилетняя война?</string>
+    <string name="IntelectRandomQw_qw_7">Какой металл обязательно присутствует в любой бронзе?</string>
+    <string name="IntelectRandomQw_qw_8">Какой из этих городов Китая самый крупный?</string>
+    <string name="IntelectRandomQw_qw_9">На территории какого современного государства находится легендарная Троя?</string>
+    <string name="IntelectRandomQw_qw_10">Как называется медицинский инструмент, используемый для прослушивания сердца и легких?</string>
+    <string name="IntelectRandomQw_qw_11">Где круглый год продолжительность дня и ночи одинакова?</string>
+    <string name="IntelectRandomQw_qw_12">Кто автор книг о Тарзане?</string>
+
+    <string name="IntelectRandomQw_1_1">Клеопатра сама себя убила</string>//
+    <string name="IntelectRandomQw_1_2">Юлий Цезарь</string>
+    <string name="IntelectRandomQw_1_3">Александр Македонский</string>
+
+    <string name="IntelectRandomQw_2_1">Гарриет Бичер-Стоу</string>//
+    <string name="IntelectRandomQw_2_2">Марк Твен</string>
+    <string name="IntelectRandomQw_2_3">Роберт Льюис Стивенсон</string>
+
+    <string name="IntelectRandomQw_3_1">Сан-Франциско</string>
+    <string name="IntelectRandomQw_3_2">Нью-Йорк</string>
+    <string name="IntelectRandomQw_3_3">Рио-де-Жанейро</string>//
+
+    <string name="IntelectRandomQw_4_1">Мантисса</string>
+    <string name="IntelectRandomQw_4_2">Биссектриса</string>
+    <string name="IntelectRandomQw_4_3">Абсцисса</string>//
+
+    <string name="IntelectRandomQw_5_1">Нектарин</string>//
+    <string name="IntelectRandomQw_5_2">Абрикос</string>
+    <string name="IntelectRandomQw_5_3">Алыча</string>
+
+    <string name="IntelectRandomQw_6_1">В 17 веке</string>//
+    <string name="IntelectRandomQw_6_2">В 16 веке</string>
+    <string name="IntelectRandomQw_6_3">В 18 веке</string>
+
+    <string name="IntelectRandomQw_7_1">Медь</string>//
+    <string name="IntelectRandomQw_7_2">Золото</string>
+    <string name="IntelectRandomQw_7_3">Серебро</string>
+
+    <string name="IntelectRandomQw_8_1">Пекин</string>
+    <string name="IntelectRandomQw_8_2">Гуанчжоу</string>
+    <string name="IntelectRandomQw_8_3">Шанхай</string>//
+
+    <string name="IntelectRandomQw_9_1">Египет</string>
+    <string name="IntelectRandomQw_9_2">Греция</string>
+    <string name="IntelectRandomQw_9_3">Турция</string>//
+
+    <string name="IntelectRandomQw_10_1">Микроскоп</string>
+    <string name="IntelectRandomQw_10_2">Скоп</string>
+    <string name="IntelectRandomQw_10_3">Стетоскоп</string>//
+
+
+    <string name="IntelectRandomQw_11_1">Экватор</string>//
+    <string name="IntelectRandomQw_11_2">Эквадор</string>
+    <string name="IntelectRandomQw_11_3">Эфиопия</string>
+
+    <string name="IntelectRandomQw_12_1">Роберт Ирвин Говард</string>
+    <string name="IntelectRandomQw_12_2">Эдгар Райс Берроуз</string>//
+    <string name="IntelectRandomQw_12_3">Редьярд Киплинг</string>
+
+
+    <string name="IntelectRandomDialog">Эрудиция и кругозор означают не совсем одно и то же.
+        Знания эрудита свидетельствуют об экспертном уровне в нескольких областях, но при этом они не являются жизненно важными.
+        Информация, которую мы называем кругозором, нужна каждый день, чтобы ориентироваться в событиях и явлениях.
+        Обычно вне профессии эрудиция позволяет блеснуть памятью, сообщив в разговоре, как звали пятую жену монарха.
+        Кругозор с точки зрения полезности гораздо привлекательнее — это понимание основных принципов без запоминания подробностей.
+        Тест содержит вопросы по географии, истории и другим наукам. Воспользуйтесь возможностью проверить широту своих интересов.
+    </string>
+    <string name="IntelectRandomAnswer_9_12">Ваш кругозор широк, как море.
+        Вас не испугали вопросы из разных областей, потому что вы хотите знать всё обо всём.
+        Желание вы подкрепляете интеллектуальной неутомимостью и любознательностью. Прекрасный пример для подражания!</string>
+
+    <string name="IntelectRandomAnswer_8_6">Хорошая заявка на успех
+Вы неплохо справились со сложными вопросами и показали разносторонность.
+        Вы с интересом воспринимаете всё новое и всегда готовы учиться.</string>
+
+    <string name="IntelectRandomAnswer_5_0">Пора расширять горизонты
+На вопросы вы не ответили, но попытка пройти тест приветствуется. Чтобы знать больше,
+        нужно переместить сферу интересов на полезную информацию. Приходите к нам ещё.</string>
+    //Рандомные вопросы обо всем - Конец
 
 </resources>

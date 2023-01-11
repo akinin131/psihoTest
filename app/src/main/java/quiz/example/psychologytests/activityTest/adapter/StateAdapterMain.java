@@ -16,6 +16,8 @@ import java.util.List;
 import quiz.example.psychologytests.R;
 import quiz.example.psychologytests.activityTest.stateadapter.StateMain;
 import quiz.example.psychologytests.tests.EntrepreneurTest;
+import quiz.example.psychologytests.tests.IntelectMil;
+import quiz.example.psychologytests.tests.IntelectRandom;
 import quiz.example.psychologytests.tests.Intelect_One;
 import quiz.example.psychologytests.tests.Kindness;
 import quiz.example.psychologytests.tests.Observation_tests;
@@ -95,6 +97,17 @@ public class StateAdapterMain extends RecyclerView.Adapter<StateAdapterMain.View
                     context13.startActivity(intent);
                     Log.d("evev", "vreve");
                 }
+                else if (positionIndex == 6) {
+                    Intent intent = new Intent(context13, IntelectMil.class);
+                    context13.startActivity(intent);
+                    Log.d("evev", "vreve");
+                }
+                else if (positionIndex == 7) {
+                    Intent intent = new Intent(context13, IntelectRandom.class);
+                    context13.startActivity(intent);
+                    Log.d("evev", "vreve");
+                }
+
             });
 
         }

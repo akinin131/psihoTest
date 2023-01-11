@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/izbrannoeFragment"
-        android:name="quiz.example.psychologytests.activityTest.FragmentActivity.IzbrannoeFragment"
+        android:name="quiz.example.psychologytests.activityTest.FragmentActivity.Izbrannoe"
         android:label="fragment_izbrannoe"
         tools:layout="@layout/fragment_izbrannoe" >
         <action
